@@ -1,0 +1,17 @@
+<div class="lg:w-1/4 lg:pr-6">
+  <div class="border-b border-gray-200 flex justify-between items-center pb-3 mb-8">
+    <p class="text-black text-base">Filters (<span id="filters-number">0</span>)</p>
+    <button class="text-primary text-sm font-medium focus:outline-none" type="button" id="filters-clear">Clear</button>
+  </div>
+  {{#each filters}}
+    <button class="filter-option__button text-black font-medium flex items-center focus:outline-none mb-2" data-next-slide>{{label}} <img class="ml-2 inline-block trans" src="images/symbols/half-arrow-down--black.svg" alt="#"></button>
+    <div class="hidden mb-4 mt-1 text-xs">
+      {{#each option}}
+      <div class="relative mb-3">
+        <input type="checkbox" class="hidden filter-option__input" id="{{id}}">
+        <label class="filter-option__label" for="{{id}}">{{option-name}}</label>
+      </div>
+      {{/each}}
+    </div>
+  {{/each}}
+</div>

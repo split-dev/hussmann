@@ -1,0 +1,27 @@
+{
+  "page_title": "Careers",
+  "page-intro": "Careers",
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Summary intro to Careers and Hussmann culture"
+  },
+  "heading-text": "[Pull Quote about the cculture at Hussmann] Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "text-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien,<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien,",
+  "jobs": [
+    {
+      "title": "Brand Manager",
+      "location": "Rowville, Melbourne VIC",
+      "date": "27/03/2020"
+    },
+    {
+      "title": "Technical Superviser",
+      "location": "Rowville, Melbourne VIC",
+      "date": "27/03/2020"
+    },
+    {
+      "title": "Product Developer",
+      "location": "Rowville, Melbourne VIC",
+      "date": "27/03/2020"
+    }
+  ]
+}

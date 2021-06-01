@@ -1,0 +1,13 @@
+{{#with image-content-block-v3}}
+<div class="container">
+  <div class="flex flex-col-reverse shadow-lg md:flex-row lg:items-center">
+    <img src="{{image}}" alt="#" class="object-center object-cover h-64 md:h-auto md:min-h-full md:w-2/5">
+    <div class="px-6 py-8 md:w-3/5 md:pr-4 lg:pl-32">
+      {{#if subheading}}<p class="font-medium text-sm text-primary mb-4">{{subheading}}</p>{{/if}}
+      <h2 class="mb-4 text-black">{{{heading}}}</h2>
+      {{#if description}}<p class="max-w-md">{{description}}</p>{{/if}}
+      <a href="#" class="btn btn-primary mt-8">Read More</a>
+    </div>
+  </div>
+</div>
+{{/with}}

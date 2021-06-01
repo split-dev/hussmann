@@ -1,0 +1,39 @@
+{
+  "page_title": "Corporate Profile",
+  "page-intro": "Corporate Profile",
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Innovating climate\nsolutions for a better future",
+    "text": "Our sole focus is helping customers stay on top their food\nretail game. From product design and retail optimizstion to\ninstallation, service and aftermarket support, count on\nHussmann to solve your needs - today, tomorrow and beyond."
+  },
+  "text-section": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien,\n",
+    "heading": "Hussmann was aquired by Panansonic Corporation in 2016"
+  },
+  "block-1": {
+    "image": "images/pictures/windmils.jpg",
+    "title": "Hussmanns commitment to Sustainability",
+    "text": "Our mission is to create climate solutions that add value, \nsustain the environment, and enhance consumer comfort",
+    "label": "Sustainability & Hussmann"
+  },
+  "image-content-block-v2": {
+    "image": "images/symbols/lorempicsum.jpg",
+    "title": "Since 1906, Hussmann has provided innovative solutions for food retailed around the world",
+    "label": "Hussmann History",
+    "image-first": "true"
+  },
+  "link-tile": [
+    {
+      "image": "images/items/link-tile-img-1.jpg", "title": "Health & Safety",
+      "label": "Learn More"
+    },
+    {
+      "image": "images/items/link-tile-img-2.jpg", "title": "Meet Our Team",
+      "label": "Learn More"
+    },
+    {
+      "image": "images/items/link-tile-img-3.jpg", "title": "Life at Hussmann",
+      "label": "Learn More"
+    }
+  ]
+}

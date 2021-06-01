@@ -1,0 +1,83 @@
+@import "common/variables";
+@import "bootstrap";
+
+/** Utilities & Helpers */
+@import "utilities/position";
+
+/** Import theme styles */
+@import "reset";
+@import "mixins";
+@import "type";
+
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+/** Import everything from autoload */
+@import "./autoload/**/*";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+:root {
+  --swiper-pagination-color: #fff;
+}
+@import "~swiper/swiper";
+@import "~swiper/components/pagination/pagination";
+@import "~swiper/components/navigation/navigation";
+@import "~swiper/components/effect-coverflow/effect-coverflow";
+@import "~swiper/components/scrollbar/scrollbar";
+//@import "~select2/dist/css/select2.min.css";
+
+/* purgecss start ignore */
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+/**
+ * ==========
+ * Components
+ * ==========
+ * Components are reusable UI elements on pages, for example:
+ * - generic components can be buttons, navs, gallery slider
+ * - page-specific components such as testimonials
+ */
+// @import "components/buttons";
+// The following line is only used for example
+// and can be safely deleted.
+@import "./sample-bem.scss";
+@import "common/global";
+@import "common/buttons";
+@import "common/header";
+@import "common/header--mobile";
+@import "common/footer";
+
+@import "components/link-tile";
+@import "components/image-content-block";
+@import "components/image-page-intro";
+@import "components/pagination";
+@import "components/product-slider";
+@import "components/product-tile";
+@import "components/faq-block";
+/**
+ * ==========
+ * Layouts
+ * ==========
+ * Layouts define the scaffold of the application
+ * such as header, footer
+ */
+// @import "layouts/base";
+@import "pages/home";
+@import "pages/shop";
+@import "pages/warranty";
+@import "pages/individual-solution";
+@import "pages/training-videos";
+@import "pages/news-projects";
+@import "pages/team";
+
+@import "crossbrowser/ie-fixes";
+

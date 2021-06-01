@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  {{> ../partials/page-intro}}
+  {{> ../partials/image-content-block}}
+  {{> ../partials/image-content-block-v2}}
+  {{> ../partials/image-content-block image-content-block=image-content-block-2}}
+
+  <section class="mt-16 mb-24">
+    <div class="container">
+      <h2 class="text-black mb-12">Frequently Asked Questions</h2>
+      {{> ../partials/faq-block}}
+    </div>
+  </section>
+
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>

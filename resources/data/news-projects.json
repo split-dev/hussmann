@@ -1,0 +1,42 @@
+{
+  "page_title": "Projects & News",
+  "blog-tile": [
+    {
+      "image": "images/pictures/blog-tile-1.jpg",
+      "category": "News",
+      "title": "Grocery Pick-up Service takes off at Melbourne Airport",
+      "desc": "Donec imperdiet id felis ultricies fermentum corner lorster drum."
+    },
+    {
+      "image": "images/pictures/blog-tile-2.jpg",
+      "category": "News",
+      "title": "Hussmann launches <br class=\"hidden lg:inline\"> new mini-mart stall series",
+      "desc": "Donec imperdiet id felis ultricies fermentum corner lorster drum."
+    },
+    {
+      "image": "images/pictures/blog-tile-3.jpg",
+      "category": "Projects",
+      "title": "Terra Madre WholeFoods",
+      "desc": "Donec imperdiet id felis ultricies fermentum corner lorster drum."
+    },
+    {
+      "image": "images/pictures/blog-tile-4.jpg",
+      "category": "News",
+      "title": "Hussmann launches <br class=\"hidden lg:inline\"> e-commerce Platform",
+      "desc": "Donec imperdiet id felis ultricies fermentum corner lorster drum."
+    },
+    {
+      "image": "images/pictures/blog-tile-5.jpg",
+      "category": "Projects",
+      "title": "Hussmann Acquires <br class=\"hidden lg:inline\"> Local Food Retailer",
+      "desc": "Donec imperdiet id felis ultricies fermentum corner lorster drum."
+    },
+    {
+      "image": "images/pictures/blog-tile-6.jpg",
+      "category": "News",
+      "title": "Hussmann takes it's stance on Sustainability",
+      "desc": "Donec imperdiet id felis ultricies fermentum corner lorster drum."
+    }
+
+  ]
+}

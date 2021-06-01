@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  {{> ../partials/page-intro}}
+  {{> ../partials/image-content-block}}
+  {{> ../partials/text-section}}
+  {{#with block-1}}
+    <section class="relative overflow-hidden">
+      <div class="image-content-block container flex  md:items-center">
+        <div class="md:w-1/2 lg:pl-4">
+          <h2 class="mb-6 text-black md:max-w-md">{{{title}}}</h2>
+          {{#if text}}<p class="text-sm md:max-w-sm">{{{text}}}</p>{{/if}}
+          {{#if label}}<a href="#" class="btn-lg btn-primary mt-8">{{label}}</a>{{/if}}
+        </div>
+      </div>
+      <div class="w-10/12 md:w-9/20 mt-8 md:mt-0 md:ml-auto">
+        <img class="w-full h-64 md:h-auto object-cover object-center max-h-xl" src="{{image}}" alt="#">
+      </div>
+    </section>
+  {{/with}}
+  {{> ../partials/image-content-block-v2}}
+  <section class="container">
+    <div class="link-tile__container flex flex-wrap lg:mb-10 mb-16">
+      {{#each link-tile}}
+        {{> ../partials/link-tile}}
+      {{/each}}
+    </div>
+  </section>
+  {{> ../common/footer}}
+</body>
+</html>

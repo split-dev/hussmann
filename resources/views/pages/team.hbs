@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head}}
+</head>
+<body class="team">
+  {{> ../common/header}}
+  {{> ../partials/page-intro breadcrumbs=true}}
+  {{> ../partials/image-content-block}}
+
+  <section class="py-16 bg-gray-100 mt-16">
+    <div class="container">
+      <h3 class="text-black mb-8">Hussmann Board Members</h3>
+    </div>
+      <div class="-mb-8">
+          {{#each member-row}}
+              <div class="member-container">
+                  <div class="container">
+                      <div class="flex flex-wrap justify-center -ml-4 -mr-4 lg:justify-start">
+                          {{#each member}}
+                              <div class=" xs:w-1/2 lg:w-1/4 px-4 mb-8">
+                                  <div class="member-tile bg-white order-1 shadow" data-bio-target="{{data-bio-target}}" data-open="0">
+                                      <img class="h-64 object-cover object-center w-full" src="{{img}}" alt="#">
+                                      <div class="bg-white px-4 py-5 text-center">
+                                          <h4 class="text-black font-medium">{{name}}</h4>
+                                          <p class="text-base">{{role}}</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          {{/each}}
+                      </div>
+                  </div>
+                  {{#each member-bio}}
+                  <div class="member-bio-panel w-full px-4 mb-8 hidden" data-bio-panel="{{data-bio-panel}}">
+                      <div class="member-bio order-2">
+                          <div class="bg-white px-4 py-24">
+                              <div class="container px-4">
+                                  <div class="flex items-center justify-between">
+                                      <div class="flex items-center"><h3 class="text-black">{{name-bio}}</h3><span class="text-2xl mx-2">-</span><h3 class="text-grey-500">{{role-bio}}</h3></div>
+                                      <div class="close-bio"><a class="text-primary" href="#">Close</a></div>
+                                  </div>
+                                  <p class="my-10"><span class="text-black mr-1">Education:</span>{{education}}</p>
+                                  <p class="text-base">{{{desc-bio}}}</p>
+                                  <div class="flex items-center mt-10">
+                                      <span class="text-primary text-sm">Linkedin Profile</span>
+                                      <div class="flex justify-center items-center w-8 h-8 bg-white shadow ml-3"><a class="-mt-1 flex justify-center items-center" href="#"><img src="images/social/linkedin-blue.svg" alt=""></a></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  {{/each}}
+              </div>
+          {{/each}}
+      </div>
+    </div>
+  </section>
+  {{#each bio-modal}}
+      <div class="bio-modal__position fixed inset-0 opacity-0 duration-300 flex justify-center bg-white items-center" data-bio-modal="{{data-bio-modal}}">
+          <div class="bio-modal bg-white flex flex-col w-full min-h-full p-10 h-full overflow-scroll">
+              <div class="px-4">
+                  <div class="flex justify-between">
+                      <div>
+                          <h3 class="text-black mb-3">{{name-bio}}</h3>
+                          <h3 class="text-grey-500">{{role-bio}}</h3>
+                      </div>
+                      <div class="close-bio-modal"><a class="text-primary" href="#">Close</a></div>
+                  </div>
+                  <p class="my-6"><span class="text-black mr-1">Education:</span>{{education}}</p>
+                  <p class="text-base">{{{desc-bio}}}</p>
+                  <div class="flex items-center mt-6">
+                      <span class="text-primary text-sm">Linkedin Profile</span>
+                      <div class="flex justify-center items-center w-8 h-8 bg-white shadow ml-3"><a class="-mt-1 flex justify-center items-center" href="#"><img src="images/social/linkedin-blue.svg" alt=""></a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  {{/each}}
+  <section class="my-16">
+    {{> ../partials/image-content-block-v3}}
+  </section>
+  {{> ../common/footer}}
+</body>
+</html>

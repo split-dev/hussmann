@@ -1,0 +1,52 @@
+{
+  "page_title": "Home",
+  "image-content-block": {
+    "image": "images/pictures/apples.jpg",
+    "title": "Providing end to end turn-key solutions",
+    "text": "For over a century, we’ve proudly served the food retailing industry with the most customer-focused solutions and innovations.",
+    "label": "About Hussmann"
+  },
+  "link-tile": [
+    {
+      "image": "images/items/link-tile-img-1.jpg", "title": "Display Cabinets",
+      "label": "View Range"
+    },
+    {
+      "image": "images/items/link-tile-img-2.jpg", "title": "Convenience",
+      "label": "View Range"
+    },
+    {
+      "image": "images/items/link-tile-img-3.jpg", "title": "Cool Rooms",
+      "label": "View Range"
+    },
+    {
+      "image": "images/items/link-tile-img-4.jpg", "title": "Food Services",
+      "label": "View Range"
+    },
+    {
+      "image": "images/items/link-tile-img-5.jpg", "title": "Digital Innovations",
+      "label": "View Range"
+    },
+    {
+      "image": "images/items/link-tile-img-6.jpg", "title": "Systems",
+      "label": "View Range"
+    }
+  ],
+  "image-content-block-v2": {
+    "image": "images/pictures/windmils.jpg",
+    "title": "Hussmanns commitment to Sustainability",
+    "text": "Our mission is to create climate solutions that add value, \nsustain the environment, and enhance consumer comfort",
+    "label": "Sustainability & Hussmann"
+  },
+  "image-content-block-v3": {
+    "image": "images/items/mini-mart-stall.jpg",
+    "subheading": "Latest News",
+    "heading": "Hussmann launces <br/> new mini-mart stall series",
+    "description": "Updated designs and features are ideal for small format stores, the new mini-mart stall series is an ideal solution for independants"
+  },
+  "cta": {
+    "title": "Interested in learning more?",
+    "text": "Ask about our solutions, pricing, implementation, or anything else. <br/> Our sales team is here to help you map a course to success.",
+    "label": "Contact Us"
+  }
+}

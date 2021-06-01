@@ -1,0 +1,109 @@
+{
+  "page_title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home",
+      "url": "/home.html"
+    },
+    {
+      "title": "Product Catalog",
+      "url": "/product-catalogue.html"
+    },
+    {
+      "title": "Individual Product v1",
+      "url": "/individual-product-v1.html"
+    },
+    {
+      "title": "Individual Product v2",
+      "url": "/individual-product-v2.html"
+    },
+    {
+      "title": "Services",
+      "url": "/services.html"
+    },
+    {
+      "title": "Warranty",
+      "url": "/warranty.html"
+    },
+    {
+      "title": "Thank You",
+      "url": "/thank-you.html"
+    },
+    {
+      "title": "Retail Solutions",
+      "url": "/retail-solutions.html"
+    },
+    {
+      "title": "Individual Solution",
+      "url": "/individual-solution.html"
+    },
+    {
+      "title": "Support",
+      "url": "/support.html"
+    },
+    {
+      "title": "Training Videos",
+      "url": "/training-videos.html"
+    },
+    {
+      "title": "Corporate Profile",
+      "url": "/corporate-profile.html"
+    },
+    {
+      "title": "History",
+      "url": "/history.html"
+    },
+    {
+      "title": "Standard Page v1",
+      "url": "/standard-page-v1.html"
+    },
+    {
+      "title": "standard-page-v2",
+      "url": "/standard-page-v2.html"
+    },
+    {
+      "title": "Team",
+      "url": "/team.html"
+    },
+    {
+      "title": "Careers",
+      "url": "/careers.html"
+    },
+    {
+      "title": "News Projects",
+      "url": "/news-projects.html"
+    },
+    {
+      "title": "News Projects Individual",
+      "url": "/news-projects-individual.html"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact.html"
+    },
+    {
+      "title": "Search Results",
+      "url": "/search-results.html"
+    },
+    {
+      "title": "404",
+      "url": "/404.html"
+    },
+    {
+      "title": "Parts (Product Catalog #2)",
+      "url": "/parts.html"
+    },
+    {
+      "title": "FAQs",
+      "url": "/faq.html"
+    },
+    {
+      "title": "Privacy Policy",
+      "url": "/privacy.html"
+    },
+    {
+      "title": "Standard Template",
+      "url": "/standard-template.html"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.image-content-block {
+  @apply absolute-center;
+  @media (max-width: 768px) {
+    position: static;
+    transform: translate(0, 0);
+  }
+}
+.image-content-block-v2 + .image-content-block-v2,
+.text-section + .image-content-block-v2 {
+  margin-top: -64px;
+  @screen sm {
+    margin-top: -128px;
+  }
+}

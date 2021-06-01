@@ -1,0 +1,23 @@
+.link-tile {
+  flex-shrink: 0;
+  &__white-box {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+  &__container {
+    @media (max-width: 992px) and (min-width: 575px) {
+      margin-right: -15px;
+      .link-tile {
+        width: 47%;
+        margin-right: 15px;
+      }
+    }
+    @media (max-width: 576px) {
+      .link-tile {
+        @apply w-full;
+      }
+    }
+  }
+}

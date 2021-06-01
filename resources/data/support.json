@@ -1,0 +1,23 @@
+{
+  "page_title": "Support",
+  "page-intro": "Support",
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "We are here to help",
+    "text": "Your source for warranty information, <br class=\"hidden md:inline\"> training tools & frequently asked questions"
+  },
+  "image-content-block-v2": {
+    "title": "Warranty",
+    "text": "Our retial design experts bring tactical thinking to\nevery project. From the largest food chains to single-\nstore owners, we are helping to create stores that are\nset up for success",
+    "label": "Learn More",
+    "image": "images/pictures/hussmann-worker-changing-door.jpg"
+  },
+  "image-content-block-2": {
+    "image": "images/pictures/hussmann-worker-changing-door-with-play-btn.jpg",
+    "title": "Explore our Training Videos for extra help with what ever you need etc etc"
+  },
+  "cta": {
+    "title": "Need to speak to a Hussmann representative?",
+    "label": "Contact Us"
+  }
+}

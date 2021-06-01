@@ -1,0 +1,25 @@
+{
+  "page_title": "Health & Safety",
+  "page-intro": "Health & Safety",
+  "links": [
+    {"label": "Corporate Profile"}
+  ],
+  "image-content-block": {
+    "image": "images/symbols/lorempicsum.jpg",
+    "title": "Hussmann was aquired by Panansonic Corporation in 2016",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis neque ac odio porttitor ullamcorper. Pellentesque nec convallis arcu."
+  },
+  "text-section": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien,\n",
+    "heading": "Hussmann was aquired by Panansonic Corporation in 2016"
+  },
+  "list-section": {
+    "title": "Goals & Objectives",
+    "items": [
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."},
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."},
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."},
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."}
+    ]
+  }
+}

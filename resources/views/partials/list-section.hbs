@@ -1,0 +1,14 @@
+{{#with list-section}}
+<section class="bg-gray-100 px-6 py-12 lg:py-16 xl:py-24">
+  <div class="container">
+    <div class="max-w-screen-md mx-auto text-base leading-6">
+      <h2 class="text-black mb-6">{{title}}</h2>
+      <ul class="list-disc pl-6">
+        {{#each items}}
+        <li class="mb-6">{{text}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>
+{{/with}}

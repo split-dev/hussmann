@@ -1,0 +1,173 @@
+{
+  "page_title": "Meet our Team",
+  "page-intro": "Meet our Team",
+  "links": [
+    {"label": "Corporate Profile"}
+  ],
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Our Team of Hussmann employers brings together experience from area of all diversity and background"
+  },
+  "member-row": [
+    {
+      "member": [
+        {
+          "data-bio-target": "1",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein",
+          "role": "Managing Director"
+        },
+        {
+          "data-bio-target": "2",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein2",
+          "role": "Managing Director2"
+        },
+        {
+          "data-bio-target": "3",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein3",
+          "role": "Managing Director3"
+        },
+        {
+          "data-bio-target": "4",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein4",
+          "role": "Managing Director4"
+        }
+      ],
+      "member-bio": [
+        {
+          "data-bio-panel": "1",
+          "name-bio": "Sheriff Hassanein",
+          "role-bio": "Managing Director",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        },
+        {
+          "data-bio-panel": "2",
+          "name-bio": "Sheriff Hassanein2",
+          "role-bio": "Managing Director2",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        },
+        {
+          "data-bio-panel": "3",
+          "name-bio": "Sheriff Hassanein3",
+          "role-bio": "Managing Director3",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        },
+        {
+          "data-bio-panel": "4",
+          "name-bio": "Sheriff Hassanein4",
+          "role-bio": "Managing Director4",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        }
+      ]
+    },
+    {
+      "member": [
+        {
+          "data-bio-target": "5",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein5",
+          "role": "Managing Director5"
+        },
+        {
+          "data-bio-target": "6",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein6",
+          "role": "Managing Director6"
+        },
+        {
+          "data-bio-target": "7",
+          "img": "images/pictures/member-portrait.jpg",
+          "name": "Sheriff Hassanein7",
+          "role": "Managing Director7"
+        }
+      ],
+      "member-bio": [
+        {
+          "data-bio-panel": "5",
+          "name-bio": "Sheriff Hassanein5",
+          "role-bio": "Managing Director5",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        },
+        {
+          "data-bio-panel": "6",
+          "name-bio": "Sheriff Hassanein6",
+          "role-bio": "Managing Director6",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        },
+        {
+          "data-bio-panel": "7",
+          "name-bio": "Sheriff Hassanein7",
+          "role-bio": "Managing Director7",
+          "education": "BSc Chemical Engineering",
+          "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+        }
+      ]
+    }
+  ],
+  "bio-modal": [
+    {
+      "data-bio-modal": "1",
+      "name-bio": "Sheriff Hassanein",
+      "role-bio": "Managing Director",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    },
+    {
+      "data-bio-modal": "2",
+      "name-bio": "Sheriff Hassanein2",
+      "role-bio": "Managing Director2",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    },
+    {
+      "data-bio-modal": "3",
+      "name-bio": "Sheriff Hassanein3",
+      "role-bio": "Managing Director3",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    },
+    {
+      "data-bio-modal": "4",
+      "name-bio": "Sheriff Hassanein4",
+      "role-bio": "Managing Director4",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    },
+    {
+      "data-bio-modal": "5",
+      "name-bio": "Sheriff Hassanein5",
+      "role-bio": "Managing Director5",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    },
+    {
+      "data-bio-modal": "6",
+      "name-bio": "Sheriff Hassanein6",
+      "role-bio": "Managing Director6",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    },
+    {
+      "data-bio-modal": "7",
+      "name-bio": "Sheriff Hassanein7",
+      "role-bio": "Managing Director7",
+      "education": "BSc Chemical Engineering",
+      "desc-bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam arcu, pretium eu fermentum nec, vehicula sed eros. Nullam non lacinia metus. Quisque condimentum volutpat sodales. Sed auctor maximus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ac pulvinar diam. Etiam viverra, eros ut porttitor elementum, libero lacus ornare felis, ac auctor ex neque sed est. Pellentesque venenatis fermentum ultricies. Vestibulum luctus venenatis tortor non imperdiet. Sed accumsan enim vitae sem aliquam condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>In eu suscipit orci, quis accumsan sem. Vivamus faucibus pharetra mauris, at congue sapien rutrum eget. Donec ultrices eros eget justo lacinia, at venenatis sem interdum. Nam molestie, odio sit amet hendrerit pulvinar, libero est tincidunt massa, sit amet tristique quam erat vitae metus. Pellentesque vel aliquam nisl, ac congue dolor."
+    }
+  ],
+  "image-content-block-v3": {
+    "image": "images/items/mini-mart-stall.jpg",
+    "subheading": "Related News",
+    "heading": "Hussmann announces 200+ jobs listings for 2020",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque dignissimos, eaque esse, harum itaque iure maxime nam nulla obcaecati odio omnis praesentium quaerat ullam vel."
+  }
+}

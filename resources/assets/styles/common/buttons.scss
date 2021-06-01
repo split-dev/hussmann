@@ -1,0 +1,43 @@
+.btn-lg {
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  @apply inline-block text-sm font-medium;
+  @apply px-16 py-3;
+}
+.btn {
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  white-space: nowrap;
+  @apply inline-block text-sm font-medium;
+  @apply px-10 py-3;
+}
+.btn-sm {
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  @apply inline-block text-sm font-medium;
+  @apply px-8 py-3;
+}
+.btn-primary {
+  background-image: linear-gradient(45deg, #2a99d2 0%, #134a94 50%, #2a99d2 100%);
+  background-size: 200%;
+  background-position: left top;
+  @apply text-white trans;
+  &:hover {
+    background-position: 100% top;
+  }
+}
+.btn-white {
+  @apply border border-white trans text-primary bg-white shadow;
+  &:hover {
+    @apply text-white bg-transparent;
+  }
+}
+.btn-outline-white {
+  @apply text-white bg-transparent border border-white trans;
+  &:hover {
+    @apply text-primary bg-white;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "page_title": "Sustainability",
+  "page-intro": "Sustainability",
+  "links": [
+    {"label": "Corporate Profile"}
+  ],
+  "image-content-block": {
+  "image": "images/pictures/windmils.jpg",
+  "title": "Hussmanns commitment to Sustainability",
+  "text": "Our mission is to create climate solutions that add value, \nsustain the environment, and enhance consumer comfort"
+},
+  "text-section": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien,\n",
+    "heading": "Hussmann was aquired by Panansonic Corporation in 2016"
+  },
+  "list-section": {
+    "title": "Sustainability Goals",
+    "items": [
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."},
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."},
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."},
+      {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus."}
+    ]
+  }
+}

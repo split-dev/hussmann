@@ -1,0 +1,12 @@
+{{#each prod-tile}}
+<div class="product-tile w-full sm:w-1/2 lg:w-66 mb-8 lg:mx-3 xl:mx-0">
+  <a href="#" class="h-full bg-gray-100 px-6 xl:px-10 py-8 xl:py-12 flex flex-col justify-end trans hover:bg-gray-200">
+    <div class="h-1/2 flex">
+        <img class="mb-6 object-contain" src="{{image}}" alt="#">
+    </div>
+    <p class="text-black font-medium mb-4">{{title}}</p>
+    <p class="text-base mb-4">{{text}}</p>
+    <span class="text-primary font-medium text-base">View Details</span>
+  </a>
+</div>
+{{/each}}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  {{> ../partials/page-intro}}
+  <div class="container">
+    <div class="text-center">
+      <p>Displaying <span class="text-black">16</span> Results</p>
+    </div>
+  </div>
+  <section class="container mt-10">
+    <div class="mt-8 md:pt-12 mb-8">
+      <h3 class="font-medium text-black mb-4">Products</h3>
+      <div class="flex flex-wrap lg:flex-no-wrap lg:justify-between">
+        {{> ../partials/product-tiles}}
+      </div>
+    </div>
+  </section>
+  <section class="mb-12 md:mb-16">
+    <div class="container">
+      <h3 class="text-black mb-6">Listing</h3>
+      <a href="#" class="text-primary underline font-medium block mb-2">Retail Solutions</a>
+      <p class="text-base mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget.</p>
+      <a href="#" class="text-primary underline font-medium block mb-2">Supermarket</a>
+      <p class="text-base mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget.</p>
+      <a href="#" class="text-primary underline font-medium block mb-2">Retail</a>
+      <p class="text-base mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget.</p>
+      <a href="#" class="text-primary underline font-medium block mb-2">Conveniance</a>
+      <p class="text-base mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at maximus urna, sed sollicitudin mi. Maecenas gravida felis libero, vitae cursus ipsum accumsan eget.</p>
+    </div>
+  </section>
+  {{> ../common/footer}}
+</body>
+</html>

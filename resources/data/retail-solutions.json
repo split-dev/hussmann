@@ -1,0 +1,57 @@
+{
+  "page_title": "Retail Solution",
+  "page-intro": "Retail Solutions",
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Hussmann will help you and your business when you need it most"
+  },
+  "content": [
+    {
+      "block": {
+        "title": "Supermarket",
+        "text": "Our retial design experts bring tactical thinking to\nevery project. From the largest food chains to single-\nstore owners, we are helping to create stores that are\nset up for success",
+        "label": "Learn More",
+        "image": "images/pictures/product-in-warehouse.jpg"
+      }
+    },
+    {
+      "block": {
+        "title": "Convenience",
+        "text": "Experts execution of your new food retail project \nor upgrade, with the speed, service and flexibility \nyou need",
+        "label": "Learn More",
+        "image": "images/pictures/truck-gateway.jpg",
+        "image-first": "true"
+      }
+    },
+    {
+      "block": {
+        "title": "Commercial Kitchen",
+        "text": "Our highly-trained service technician provide\nexpert installation ensuring performance and\nprolonged product life.",
+        "label": "Learn More",
+        "image": "images/pictures/hussmann-worker-changing-door--wide.jpg"
+      }
+    },
+    {
+      "block": {
+        "title": "Digital",
+        "text": "Our highly-trained service technicians\nprovide expert service & maintenance, ensuring performance and prolonged product life.",
+        "label": "Learn More",
+        "image": "images/pictures/vegetables-in-the-cabin.jpg",
+        "image-first": "true"
+      }
+    },
+    {
+      "block": {
+        "title": "Pharmacy",
+        "text": "Hussmann provides the most customer-focused\nsolutions. Read our warranty information for our\nproducts here",
+        "label": "Learn More",
+        "image": "images/pictures/hussmann-worker-changing-door--wide.jpg"
+      }
+    }
+  ],
+  "cta": {
+    "title": "Need extra support",
+    "text": "Our Sales team is here to help",
+    "label": "Contact Us"
+  }
+}

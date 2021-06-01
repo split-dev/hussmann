@@ -1,0 +1,31 @@
+{
+  "page_title": "Individual Project & News",
+  "prod-tile": [
+    {
+      "image": "images/items/cabin-1.jpg",
+      "title": "RLT/RMT",
+      "text": "Extra Tall Reach-in Merchandiser for Low Temperature Products "
+    },
+    {
+      "image": "images/items/cabin-2.png",
+      "title": "B3XC",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/cabin-3.png",
+      "title": "B5XEC-L",
+      "text": "Excel High Volume Five Deck Bulk Merchandiser with Extended Canopy"
+    },
+    {
+      "image": "images/items/cabin-4.png",
+      "title": "Cyclone Self-Serve",
+      "text": "Extra Tall Reach-in Merchandiser for Low Temperature Products "
+    }
+  ],
+  "image-content-block-v3": {
+    "image": "images/pictures/market.jpg",
+    "subheading": "Related Article",
+    "heading": "Hussmann launces <br/> new mini-mart stall series",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet purus id felis ultricies fermentum. Ut dictum scelerisque erat, at convallis tellus scelerisque ac."
+  }
+}

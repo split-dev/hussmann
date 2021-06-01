@@ -1,0 +1,19 @@
+<section class="h-64 md:h-96 bg-center bg-cover mt-16 md:mt-32 dark-overlay flex items-center" style="background-image: url('{{image}}')">
+ <div class="container">
+   <div class="text-center text-white">
+     <h1>{{page-title}}</h1>
+   </div>
+ </div>
+</section>
+<section class="bg-primary-gradient py-5 text-white">
+  <div class="container">
+    <div class="flex items-baseline flex-col sm:flex-row">
+      <p class="mr-4">Product Range:</p>
+      <select name="range" id="range" class="select2 hidden">
+        {{#each select}}
+          <option value="#">{{option}}</option>
+        {{/each}}
+      </select>
+    </div>
+  </div>
+</section>

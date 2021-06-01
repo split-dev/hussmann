@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="individual-solution">
+  {{> ../common/header}}
+  <section class="h-64 bg-cover bg-center flex items-end lg:h-128 xl:h-160 mt-20 xl:mt-32" style="background-image: url('images/pictures/donuts-picture.jpg')">
+    <div class="container -mb-32 lg:-mb-24">
+      <div class="bg-white relative px-8 pb-8 mt-40 pt-6 lg:pb-16 lg:px-24 lg:mt-0 text-center leading-6">
+        <div class="text-right text-base mb-8">
+          <a href="#">Retail Solutions</a>
+          <span class="mx-2"> > </span>
+          <a href="#" class="underline">Pharmacy</a>
+        </div>
+        <h2 class="text-black font-medium mb-4">Pharmacy</h2>
+        <p class="text-base">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien odio, convallis quis lectus in, consectetur porta odio. Pellentesque leo augue, faucibus at mauris ac, dictum varius justo.
+        </p>
+        <span class="block absolute bottom-0 left-0 bg-primary-gradient h-7px w-full"></span>
+      </div>
+    </div>
+  </section>
+
+<!--  Just text & shadow-->
+  <section class="mt-40 mb-20">
+    <div class="container">
+      <div class="shadow-lg px-6 py-8 md:py-16 md:px-20 text-sm leading-6">
+        <p class="mb-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien,
+        </p>
+        <p class="mb-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse
+        </p>
+        <h3 class="font-medium text-black mb-8">
+          Hussmann was aquired by Panansonic Corporation in 2016
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor. Mauris et est turpis. Suspendisse elementum dapibus sapien
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="swiper-container flex h-64 sm:h-96 lg:h-128 xl:h-143 relative mb-16 md:mb-24">
+    <button class="solution-slider__button w-12 sm:w-auto absolute inset-y-0 left-0 flex-shrink-1 light-overlay -mr-4 z-20 focus:outline-none"
+            data-slider-prev>
+      <img class="absolute top-1/2 left-1/2" src="images/symbols/half-arrow-left--black--x2.svg" alt="#">
+    </button>
+    <div class="container flex-shrink-0 solution-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-center bg-cover" style="background-image: url('images/pictures/customer-selecting-a-treatment.jpg')"></div>
+        <div class="swiper-slide bg-center bg-cover" style="background-image: url('images/pictures/customer-selecting-a-treatment.jpg')"></div>
+        <div class="swiper-slide bg-center bg-cover" style="background-image: url('images/pictures/customer-selecting-a-treatment.jpg')"></div>
+      </div>
+    </div>
+    <button class="solution-slider__button w-12 sm:w-auto absolute inset-y-0 right-0 flex-shrink-1 light-overlay -ml-4 z-20 focus:outline-none"
+            data-slider-next>
+      <img class="absolute top-1/2 left-1/2" src="images/symbols/half-arrow-right--black--x2.svg" alt="#">
+    </button>
+  </section>
+
+  <section class="container mt-12">
+    <div class="mb-8">
+      <div class="sm:flex items-center justify-between mb-4">
+        <h3 class="font-medium text-black">Related Products</h3>
+        <div class="flex items-center mt-2 sm:mt-0">
+          <p class="text-primary text-sm ml-auto">Explore all</p>
+          <a href="#" class="inline-flex shadow ml-4 p-1 h-6 w-6 sm:h-12 sm:w-12 sm:p-0">
+            <img src="images/symbols/arrow-right.svg" alt="#" class="m-auto">
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-wrap lg:flex-no-wrap lg:justify-between">
+        {{> ../partials/product-tiles}}
+      </div>
+    </div>
+  </section>
+
+<!--  Contact form-->
+  <section class="bg-gray-100 pt-16 pb-20">
+    <div class="container">
+      <div class="md:text-center mb-10">
+        <h2 class="font-medium text-black mb-6">
+          Not sure what solution is right for your business?
+        </h2>
+        <p class="text-base">
+          ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit viverra maximus. Suspendisse interdum nisi ac tempus vulputate.
+        </p>
+      </div>
+      <form action="#" class="max-w-screen-md mx-auto">
+        <!--        Row with 2-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="md:w-1/2 md:pr-2 flex flex-col-reverse">
+            <input class="input-for-label" type="text" id="full-name">
+            <label class="input-label mb-2" for="full-name">Full Name</label>
+          </div>
+          <div class="md:w-1/2 md:pl-2 flex flex-col-reverse">
+            <input class="input-for-label" type="text" id="company-name">
+            <label class="input-label" for="company-name">Company Name</label>
+          </div>
+        </div>
+        <div class="md:flex flex-wrap mb-5">
+          <div class="md:w-1/2 md:pr-2 flex flex-col-reverse">
+            <input class="input-for-label" type="email" id="email">
+            <label class="input-label mb-2" for="email">Email Address</label>
+          </div>
+          <div class="md:w-1/2 md:pl-2 flex flex-col-reverse">
+            <input class="input-for-label" type="tel" id="phone">
+            <label class="input-label" for="phone">Phone Number</label>
+          </div>
+        </div>
+        <!--        Row with 1 & 1 select2-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="md:w-1/2 md:pr-2 flex flex-col-reverse">
+            <input class="input-for-label" type="text" id="city">
+            <label class="input-label mb-2" for="city">City</label>
+          </div>
+          <div class="md:w-1/2 md:pl-2 flex flex-col-reverse">
+            <select name="state" id="state" class="select2 hidden" data-placeholder="Select State">
+              <option></option>
+              <option value="#">First State</option>
+              <option value="#">Second State</option>
+              <option value="#">Third State</option>
+              <option value="#">Fourth State</option>
+            </select>
+            <label class="input-label trans" for="state">State</label>
+          </div>
+        </div>
+        <!--        Row with 1 & 1 select2-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="md:w-1/2 md:pr-2 flex flex-col-reverse">
+            <input class="input-for-label" type="text" id="industry">
+            <label class="input-label mb-2" for="industry">Industry</label>
+          </div>
+          <div class="md:w-1/2 md:pl-2 flex flex-col-reverse">
+            <select name="state" id="area" class="select2 hidden" data-placeholder="Select Area">
+              <option></option>
+              <option value="#">First State</option>
+              <option value="#">Second State</option>
+              <option value="#">Third State</option>
+              <option value="#">Fourth State</option>
+            </select>
+            <label class="input-label trans" for="area">Area of interest</label>
+          </div>
+        </div>
+
+        <!--        Row with textarea-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="flex w-full flex-col-reverse">
+            <textarea class="input-for-label resize-none" type="text" id="Message" rows="4" placeholder="Start typing message"></textarea>
+            <label class="input-label mb-2" for="Message">Message</label>
+          </div>
+        </div>
+        <div class="text-right">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  {{> ../common/footer}}
+</body>
+</html>
+

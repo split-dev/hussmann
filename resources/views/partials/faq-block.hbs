@@ -1,0 +1,26 @@
+<div class="faq-block text-left">
+  {{#each faq-category}}
+  <button class="filter-option__button faq-category" data-next-slide>FAQ Category <img class="ml-auto inline-block trans" src="images/symbols/half-arrow-down--black.svg" alt="#"></button>
+  <div class="hidden">
+    {{#each question}}
+    <div class="border-b-2 border-gray-100 py-6">
+      <button class="filter-option__button faq-subcategory" data-next-slide>
+        [Nested Question] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales elementum mi
+        <span class="text-primary text-sm font-medium ml-auto pl-4">
+        <span class="text-open">Open</span>
+        <span class="text-close">Close</span>
+      </span>
+      </button>
+      <div class="hidden mt-6 py-6 md:py-12 px-6 bg-gray-100 -mb-6">
+        <div class="md:flex items-center">
+          <p class="text-black text-base mb-4 md:pr-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales elementum mi, nec auctor nunc eleifend sit amet. Pellentesque suscipit ipsum ac leo semper rutrum vel at urna. Curabitur eu suscipit lacus, eget varius enim. Nunc vitae pellentesque enim. Praesent euismod augue sit amet semper rutrum.
+          </p>
+          <a href="#" class="btn-sm btn-primary">Support</a>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/each}}
+</div>

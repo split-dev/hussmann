@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+{{> ../common/header}}
+
+<section class="mt-32 md:mt-48 mb-8">
+  <div class="container">
+    <div class="text-center text-black">
+      <h2 class="max-w-2xl mx-auto mb-3">Independant Mediterranean style supermarket, Oasis Bakery, expands
+        with the help of Hussmann</h2>
+      <p class="text-base mb-3">Posted by <span class="text-primary">Hussmann, February 2020</span></p>
+      <div class="inline-flex items-center text-xs text-black mx-auto">
+        <a href="#" class="ml-3"><img src="images/social/facebook--black.jpg" alt="#"></a>
+        <a href="#" class="ml-3"><img src="images/social/twitter--black.jpg" alt="#"></a>
+        <a href="#" class="ml-3"><img src="images/social/linkedIn--black.jpg" alt="#"></a>
+        <a href="#" class="ml-3"><img src="images/social/envelope--black.jpg" alt="#"></a>
+      </div>
+    </div>
+  </div>
+</section>
+<img class="max-h-xl h-full w-full object-cover object-center mb-10" src="images/pictures/donuts-picture.jpg" alt="#">
+
+<section class="container">
+  <div class="max-w-3xl mx-auto text-base">
+    <h4 class="text-black mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+    <p class="mb-10">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam nulla turpis. Aliquam erat volutpat. Mauris a felis sit amet purus convallis laoreet. Proin eleifend nec nibh non imperdiet. Nullam ut lorem ultricies, ornare justo sed, pharetra enim. Suspendisse id risus id velit facilisis efficitur. Aliquam erat volutpat. Nulla ut arcu non leo maximus accumsan. Donec mauris ipsum, ultricies et purus mollis, lacinia semper purus. Nunc porttitor et enim sed faucibus. Duis cursus lorem ac turpis sollicitudin, et lobortis sapien sollicitudin. Phasellus quis porta ipsum, vitae maximus purus. Donec at ante rhoncus, sodales nibh in, dictum sem. Curabitur volutpat sagittis justo a vehicula. Proin cursus nibh ut nulla semper, non consectetur nulla bibendum.
+    </p>
+    <img class="object-cover object-center max-h-xl w-full mb-10" src="images/pictures/post-image-1.jpg" alt="#">
+    <p class="mb-10">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam nulla turpis. Aliquam erat volutpat. Mauris a felis sit amet purus convallis laoreet. Proin eleifend nec nibh non imperdiet. Nullam ut lorem ultricies, ornare justo sed, pharetra enim. Suspendisse id risus id velit facilisis efficitur. Aliquam erat volutpat. Nulla ut arcu non leo maximus accumsan. Donec mauris ipsum, ultricies et purus mollis, lacinia semper purus.
+    </p>
+    <img class="object-cover object-center max-h-xl w-full mb-6" src="images/pictures/post-image-2.jpg" alt="#">
+    <div class="lg:flex">
+      <img class="object-cover object-center max-h-xl w-full mb-10 lg:pr-3" src="images/pictures/post-image-3.jpg" alt="#">
+      <img class="object-cover object-center max-h-xl w-full mb-10 lg:pl-3" src="images/pictures/post-image-4.jpg" alt="#">
+    </div>
+  </div>
+</section>
+
+<section class="container mt-12">
+  <div class="mb-8">
+    <div class="sm:flex items-center justify-between mb-4">
+      <h3 class="font-medium text-black">Related Products</h3>
+      <div class="flex items-center mt-2 sm:mt-0">
+        <p class="text-primary text-sm ml-auto">Explore all</p>
+        <a href="#" class="inline-flex shadow ml-4 p-1 h-6 w-6 sm:h-12 sm:w-12 sm:p-0">
+          <img src="images/symbols/arrow-right.svg" alt="#" class="m-auto">
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-wrap lg:flex-no-wrap lg:justify-between">
+      {{> ../partials/product-tiles}}
+    </div>
+  </div>
+</section>
+<section class="mb-12 md:mb-24">
+  {{> ../partials/image-content-block-v3}}
+</section>
+{{> ../common/footer}}
+</body>
+</html>

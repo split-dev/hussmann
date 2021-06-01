@@ -1,0 +1,117 @@
+{
+  "page_title": "Project Nimble",
+  "nimble_guide_url": "https://www.notion.so/trueagency/Nimble-bafec8698adb4fadab29af1a752e1109",
+  "nimble_examples": [
+    {
+      "label": "Javascript - Importing Swiper slider",
+      "url": "/example-slider.html"
+    },
+    {
+      "label": "Styling - Using BEM",
+      "url": "/example-bem.html"
+    }
+  ],
+  "bem_examples": [
+    {
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+      "author_name": "Jane Doe",
+      "author_team": "ux"
+    },
+    {
+      "avatar": "https://randomuser.me/api/portraits/men/68.jpg",
+      "author_name": "Alex Smith",
+      "author_team": "sales"
+    },
+    {
+      "avatar": "https://randomuser.me/api/portraits/women/66.jpg",
+      "author_name": "Samantha Black",
+      "author_team": "sales"
+    },
+    {
+      "avatar": "https://randomuser.me/api/portraits/men/66.jpg",
+      "author_name": "Will Smith",
+      "author_team": "dev"
+    },
+    {
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "author_name": "Karlie Jensen",
+      "author_team": "ux"
+    },
+    {
+      "avatar": "https://randomuser.me/api/portraits/men/44.jpg",
+      "author_name": "Sam Potts",
+      "author_team": "dev"
+    }
+  ],
+
+  "faq-category": [
+    {
+      "question": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "question": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "question": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "question": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "question": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+
+  "link": [
+    {"label": "Product Range", "mega": "products"},
+    {"label": "Services", "mega": "services"},
+    {"label": "Retail Solutions"},
+    {"label": "Parts"},
+    {"label": "Support"}
+  ],
+  "footer": [
+    {
+      "links": [
+        {"label": "Product Range"},
+        {"label": "Services"},
+        {"label": "Retail Solutions"},
+        {"label": "Parts"},
+        {"label": "Support"},
+        {"label": "Contact"}
+      ]
+    },
+    {
+      "links": [
+        {"label": "Projects & New"},
+        {"label": "Corporate Profile"},
+        {"label": "Careers"}
+      ]
+    },
+    {
+      "links": [
+        {"label": "Terms & Conditions"},
+        {"label": "Privacy Policy"}
+      ]
+    }
+  ]
+}

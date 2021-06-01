@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="career">
+  {{> ../common/header}}
+  {{> ../partials/page-intro}}
+  {{> ../partials/image-content-block}}
+  <section class="container text-section">
+      <div class="shadow-lg px-6 py-12 lg:py-16 xl:py-24 my-12 lg:my-20 text-base leading-6 relative">
+          <div class="max-w-screen-md mx-auto">
+              <h3 class="text-black mb-6">{{heading-text}}</h3>
+              <p>{{{text-desc}}}</p>
+          </div>
+          <span class="block absolute bottom-0 left-0 bg-primary-gradient h-7px w-full"></span>
+      </div>
+  </section>
+
+  <section class="mb-20 md:mb-24">
+    <div class="container">
+      <h2 class="text-black mb-8">Now Hiring</h2>
+
+<!--   Hire title-->
+      <div class="flex items-center text-xs border-black border-b-2 pb-3">
+        <p class="max-w-lg w-full">Position</p>
+        <p class="max-w-xs-2 w-full w-full pl-5 xl:pl-0 hidden md:inline-flex">Location</p>
+        <p class="whitespace-no-wrap">Application close date</p>
+      </div>
+
+<!--   Hire drop-->
+      {{#each jobs}}
+      <button class="slideToggleTrigger text-black w-full text-left py-5 flex items-center border-b border-gray-200" data-next-slide>
+        <span class="max-w-lg w-full">{{title}}</span>
+        <span class="max-w-xs-2 w-full hidden md:inline-flex">{{location}}</span>
+        <span class="mr-2 sm:mr-8">{{date}}</span>
+       <img class="ml-auto trans" src="images/symbols/half-arrow-down--black.svg" alt="#">
+      </button>
+      <div class="hidden py-6 md:py-8 px-6 border-gray-200 border -mt-px">
+        <div class="md:flex items-center">
+          <p class="text-black text-base mb-4 md:pr-6">
+            <span class="text-gray-600">Job Description</span> <br/>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales elementum mi, nec auctor nunc eleifend sit amet. Pellentesque suscipit ipsum ac leo semper rutrum vel at urna. Curabitur eu suscipit lacus, eget varius enim. Nunc vitae pellentesque enim. Praesent euismod augue sit amet semper rutrum.
+          </p>
+          <a href="#" class="btn-sm btn-primary xl:mr-20">Apply</a>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+  <section class="bg-gray-100 pt-16 pb-20">
+    <div class="container">
+      <div class="md:text-center mb-10">
+        <h2 class="font-medium text-black mb-6">
+          Interested in joining the team at Hussmann?
+        </h2>
+        <p class="text-base">
+          For all warranty enquires and claims please fill out the form below for our review and assessment
+        </p>
+      </div>
+      <form action="#" class="max-w-screen-md mx-auto">
+        <!--        Row with 2-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="md:w-1/2 md:pr-2 flex flex-col-reverse">
+            <input class="input-for-label" type="text" id="full-name">
+            <label class="input-label mb-2" for="full-name">Full Name</label>
+          </div>
+          <div class="md:w-1/2 md:pl-2 flex flex-col-reverse">
+            <input class="input-for-label" type="email" id="email">
+            <label class="input-label" for="email">Email Address</label>
+          </div>
+        </div>
+
+        <!--        Row with 1 & 1 select2-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="md:w-1/2 md:pr-2 flex flex-col-reverse">
+            <input class="input-for-label" type="tel" id="phone">
+            <label class="input-label mb-2" for="phone">Phone Number</label>
+          </div>
+          <div class="md:w-1/2 md:pl-2 flex flex-col-reverse">
+            <select name="state" id="state" class="select2 hidden" data-placeholder="Select location">
+              <option></option>
+              <option value="#">First Location</option>
+              <option value="#">Second Location</option>
+              <option value="#">Third Location</option>
+              <option value="#">Fourth Location</option>
+            </select>
+            <label class="input-label trans" for="state">Location</label>
+          </div>
+        </div>
+
+        <!--        Row with textarea-->
+        <div class="md:flex flex-wrap mb-5">
+          <div class="flex w-full flex-col-reverse">
+            <textarea class="input-for-label resize-none" type="text" id="Message" rows="4" placeholder="Start typing message"></textarea>
+            <label class="input-label mb-2" for="Message">Message</label>
+          </div>
+        </div>
+        <div class="text-right">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  {{> ../common/footer}}
+</body>
+</html>

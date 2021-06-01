@@ -1,0 +1,51 @@
+body {
+  color: #7d7d7d;
+}
+@keyframes bounceInRight {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+}
+.hover-img-scale {
+  img {
+    transform: scale(1);
+    transition: 0.3s;
+  }
+  &:hover {
+    img {
+      transform: scale(1.08);
+    }
+  }
+}
+
+.hover-img-bounce {
+  &:hover {
+    img {
+      animation: bounceInRight 0.5s infinite;
+    }
+  }
+}
+.dark-overlay {
+  position: relative;
+  z-index: 1;
+  &:after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    @extend .absolute-fill;
+  }
+}
+button {
+  &:focus {
+    outline: none;
+  }
+}
+.body-hidden {
+  overflow: hidden !important;
+  height: 100%;
+}
+

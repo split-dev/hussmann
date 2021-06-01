@@ -1,0 +1,15 @@
+.faq-category {
+  @apply text-lg text-black text-left font-medium flex items-center border-b-2 border-black w-full mt-8 pb-4;
+  &:focus {
+    @apply outline-none;
+  }
+}
+.faq-subcategory {
+  @apply flex flex-col text-left items-center text-black w-full;
+  @screen md {
+    @apply flex-row;
+  }
+  &:focus {
+    @apply outline-none;
+  }
+}

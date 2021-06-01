@@ -1,0 +1,75 @@
+.select2-container--form-select {
+  @apply z-40;
+  .select2-search__field {
+    @apply hidden;
+  }
+  .select2-selection__rendered {
+    @apply cursor-pointer text-black text-base;
+  }
+  .selection {
+    @apply block w-full;
+  }
+  .select2-selection {
+    @apply cursor-pointer block w-full relative;
+    &:focus {
+      outline: none;
+    }
+  }
+  .select2-selection__placeholder {
+    @apply text-base italic text-gray-600;
+  }
+  .select2-results__options {
+    @apply bg-white px-6 py-6 cursor-pointer shadow text-md;
+  }
+  .select2-results__option {
+    @apply mb-2 trans;
+    &:last-child {
+      @apply mb-0;
+    }
+  }
+  .select2-results__option:hover {
+    @apply text-primary;
+  }
+  .select2-selection__arrow {
+    transform-origin: 70% 50%;
+    @apply inline-block trans absolute right-0;
+    svg {
+      @apply inline-block ml-2;
+    }
+  }
+  .select2-dropdown {
+    @apply block;
+  }
+  &.select2-container--open .select2-selection__arrow {
+    transform: rotate(180deg);
+  }
+}
+.select2.select2-container--form-select {
+  padding: 6px 1rem 7px;
+  @apply border-2 bg-white border-white trans;
+  &.select2-container--focus {
+    @apply border-primary;
+  }
+}
+.select2-container--focus + label {
+  @apply text-primary;
+}
+.slideToggleTrigger {
+  img {
+    transform: rotate(0deg);
+  }
+  &.open {
+    img {
+      transform: rotate(180deg);
+    }
+  }
+  &:focus {
+    @apply outline-none;
+  }
+}
+textarea::placeholder {
+  @apply text-base italic text-gray-600;
+}
+.training-videos .select2.select2-container--form-select {
+  @apply border-gray-100;
+}

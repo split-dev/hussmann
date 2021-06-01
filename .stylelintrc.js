@@ -1,0 +1,42 @@
+module.exports = {
+  'extends': 'stylelint-config-standard',
+  'rules': {
+    'declaration-property-value-blacklist': {
+      "width": ["max-content"],
+      "height": ["max-content"],
+    },
+    'no-empty-source': null,
+    'comment-empty-line-before': null,
+    'rule-empty-line-before': null,
+    'at-rule-empty-line-before': null,
+    'selector-pseudo-element-colon-notation': null,
+    'string-quotes': 'double',
+    'at-rule-no-unknown': [
+      true,
+      {
+        'ignoreAtRules': [
+          'extend',
+          'at-root',
+          'debug',
+          'warn',
+          'error',
+          'if',
+          'else',
+          'for',
+          'each',
+          'while',
+          'mixin',
+          'include',
+          'content',
+          'return',
+          'function',
+          'tailwind',
+          'apply',
+          'responsive',
+          'variants',
+          'screen',
+        ],
+      },
+    ],
+  },
+};

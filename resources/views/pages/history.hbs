@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  {{> ../partials/page-intro breadcrumbs=true}}
+  {{> ../partials/image-content-block}}
+  <section class="mt-16 overflow-hidden mb-16 lg:mb-8">
+    <div class="container">
+      <h3 class="mb-5 text-black">A brief Timeline</h3>
+      <p class="max-w-2xl text-base mb-12">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit purus. Sed laoreet diam nunc, id ornare ipsum gravida vel. Donec et odio non neque viverra pharetra. Praesent commodo nulla eu erat interdum auctor
+      </p>
+      <div class="relative lg:flex flex-wrap pl-8 lg:pl-0">
+        {{#each time-line}}
+          <div class="lg:w-1/5 lg:h-48 lg:pr-3 text-base pt-6">
+            <p class="text-primary mb-">{{time}}</p>
+            <p class="text-black">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nunc arcu,
+            </p>
+          </div>
+        {{/each}}
+        <span class="absolute left-0 top-0 h-full w-7px lg:w-screen lg:h-7px bg-primary-gradient"></span>
+        <span class="absolute right-0 top-1/2 w-screen bg-primary-gradient h-7px hidden lg:block"></span>
+      </div>
+    </div>
+  </section>
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>

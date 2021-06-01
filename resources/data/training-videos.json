@@ -1,0 +1,21 @@
+{
+  "page_title": "Training Videos",
+  "page-intro": "Training Videos",
+  "links": [
+    {"label": "Support"}
+  ],
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Hussmann are here to help you and your business when you need it most"
+  },
+  "video": [
+    {},
+    {},
+    {}
+  ],
+  "cta": {
+    "title": "Interested in learning more?",
+    "text": "Ask about our solutions, pricing, implementation, or anything else. <br class=\"hidden lg:inline\"> Our sales team is here to help you map a course to success.",
+    "label": "Contact Us"
+  }
+}

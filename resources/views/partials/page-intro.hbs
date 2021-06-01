@@ -1,0 +1,14 @@
+<section class="bg-primary-gradient text-center text-white pt-32 pb-16 sm:pt-40 sm:pb-20 mb-16">
+  <div class="container">
+    <div class="text-right text-base mb-8 h-6">
+      {{#if breadcrumbs}}
+      {{#each links}}
+      <a href="#">{{label}}</a>
+      <span class="mx-2">></span>
+      {{/each}}
+      <a href="#" class="underline">{{page-intro}}</a>
+      {{/if}}
+    </div>
+    <h1>{{page-intro}}</h1>
+  </div>
+</section>

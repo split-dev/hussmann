@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="shop">
+  {{> ../common/header}}
+  {{> ../partials/image-page-intro}}
+
+  <section class="py-10">
+    <div class="container">
+      <div class="flex flex-col lg:flex-row">
+        {{> ../partials/filters}}
+        <div class="mt-6 lg:mt-8 lg:w-3/4 flex flex-wrap justify-center xl:justify-between">
+          {{> ../partials/product-tiles}}
+        </div>
+      </div>
+    </div>
+    {{> ../partials/pagination}}
+  </section>
+
+  {{> ../common/footer}}
+</body>
+</html>

@@ -1,0 +1,36 @@
+.select2-container--image-page-intro {
+  .select2-search {
+    display: none;
+  }
+  .select2-selection__rendered {
+    @apply text-lg cursor-pointer;
+  }
+  .select2-selection {
+    @apply cursor-pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+  .select2-results__options {
+    @apply bg-white px-6 py-6 cursor-pointer shadow text-md;
+  }
+  .select2-results__option {
+    @apply mb-2 trans;
+    &:last-child {
+      @apply mb-0;
+    }
+  }
+  .select2-results__option:hover {
+    @apply text-primary;
+  }
+  .select2-selection__arrow {
+    transform-origin: 70% 50%;
+    @apply inline-block trans;
+    svg {
+      @apply inline-block ml-2;
+    }
+  }
+  &.select2-container--open .select2-selection__arrow {
+    transform: rotate(180deg);
+  }
+}

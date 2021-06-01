@@ -1,0 +1,16 @@
+{{#with image-content-block-v2}}
+<section class="image-content-block-v2 py-16 sm:py-32">
+  <div class="container">
+    <div class="shadow-lg flex flex-col lg:items-center md:flex-row">
+      <div class="md:w-1/2 py-6 pr-8 pl-8 lg:pl-24">
+        <h2 class="text-black mb-6">{{{title}}}</h2>
+        <p class="text-base mb-8">{{text}}</p>
+        <a href="#" class="btn-sm btn-primary">{{label}}</a>
+      </div>
+      <div class="md:w-1/2 md:min-h-full {{#if image-first}}order-first{{/if}}">
+        <img class="w-full h-64 object-cover object-center md:h-full" src="{{image}}" alt="#">
+      </div>
+    </div>
+  </div>
+</section>
+{{/with}}

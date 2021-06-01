@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-twilight.css" rel="stylesheet" />
+</head>
+<body class="sample-slider">
+  <div class="container pt-24">
+    <h1 class="text-3xl">Sample BEM Guide</h1>
+    <p>
+      BEM (Block, Element and Modifier) is the styling methodology that we follow. If you are unsure about where to start, we recommend reading this <a href="https://www.smashingmagazine.com/2018/06/bem-for-beginners/">guide</a>. If you are still unsure, this page will help explain how to enforce BEM in your project through solid examples.
+    </p>
+    <br>
+    <p>
+      The section below shows example of BEM application for <code class="language-scss">.sample-card</code> block. You can find the full .scss file in <code class="language-scss">_sample-bem.scss</code> file.
+    </p>
+    <div class="callout bg-yellow-300 text-yellow-800 p-6 mb-3 bordered">
+      Note that this examples uses some inlined styles for demonstration purpose only, this is not recommended when working with actual projects. This example also uses tailwind.css which is not required when building your next project.
+    </div>
+  </div>
+  <div class="relative" style="background-color: #EBF4FF; padding: 80px 30px;">
+    <div class="container">
+      <div class="row sample-cards">
+        {{#each bem_examples}}
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="sample-card">
+            <div class="sample-card__header">
+              <div class="sample-card__avatar">
+                <img data-src="{{avatar}}"
+                    class="lazy img-fluid sample-card__avatar-img"
+                    alt="">
+              </div>
+              <div class="sample-card__header-content">
+                <h3 class="sample-card__author-name">{{author_name}}</h3>
+                <div class="sample-card__author-team sample-card__author-team--{{author_team}}">
+                  {{author_team}}
+                </div>
+              </div>
+            </div>
+            <div class="sample-card__main">
+              <div class="sample-card__description">
+                Nunc tristique lorem vitae tellus finibus consectetur. Maecenas condimentum dictum pulvinar. Pellentesque nisl lectus, elementum id sodales ac, pulvinar sit amet enim. Donec sit amet convallis dui. Aliquam metus metus, dapibus at bibendum eget, bibendum sed tellus.
+              </div>
+              <div class="sample-card__link-wrap">
+                <a href="#" class="sample-card__link">
+                  View Profile
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <h3 class="text-xl mt-8">Explanation</h3>
+      <p>
+        You may view the SCCS file from <code class="language-bash">components/_sample-bem.scss</code>, which get imported from our <code class="language-scss">main.scss</code> file. The resulting HTML can be viewed from the source code of this page template: <code class="language-bash">views/pages/example-bem.hbs</code>
+      </p>
+      <p>
+        <strong>Few things to note:</strong>
+      </p>
+      <p>
+        1. Most elements are prefixed <code>&__</code> for elements or <code>&--</code> for modifiers, to enforce our block namespace (.sample-code)
+      </p>
+      <pre><code class="language-html">&lt;div class=&quot;sample-card&quot;&gt;
+...
+&lt;div class=&quot;sample-card__header-content&quot;&gt;
+  &lt;h3 class=&quot;sample-card__author-name&quot;&gt;Jane Doe&lt;/h3&gt;
+  &lt;div class=&quot;sample-card__author-team sample-card__author-team--sales&quot;&gt;
+    sales
+  &lt;/div&gt;
+&lt;/div&gt;
+...
+&lt;/div&gt; &lt;!-- End of .sample-card --&gt;</code></pre>
+      <p>
+        2. To add different colours to each person's team, we simply add modifier such as <code class="language-scss">.sample-card__author-team--ux</code>, <code class="language-scss">.sample-card__author-team--dev</code> and <code class="language-scss">.sample-card__author-team--sales</code>
+      </p>
+      <p>
+        3. It is okay to mix bootstrap helper class (in fact, it is recommended), such as the .d-flex, .row or .col-* variant.
+      </p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>

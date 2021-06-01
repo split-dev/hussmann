@@ -1,0 +1,52 @@
+.filter-option {
+  &__button {
+    img {
+      transform: rotate(0deg);
+    }
+    .text-close {
+      @apply hidden;
+    }
+    &.open {
+      img {
+        transform: rotate(180deg);
+      }
+      .text-open {
+        @apply hidden;
+      }
+      .text-close {
+        @apply inline-flex;
+      }
+    }
+  }
+  &__label {
+    @apply block cursor-pointer flex items-center trans;
+    &:before {
+      content: "";
+      width: 19px;
+      height: 19px;
+      border-color: rgba(0, 0, 0, 0.15);
+      border-radius: 6px;
+      @apply inline-block mr-3 border trans;
+    }
+    &:after {
+      content: url("~images/symbols/check.svg");
+      left: 5px;
+      top: 0;
+      @apply block absolute opacity-0 trans;
+    }
+  }
+  &__input:checked + .filter-option__label {
+    @apply text-black;
+    &:before {
+      @apply border-primary;
+    }
+    &:after {
+      @apply opacity-100;
+    }
+  }
+}
+.shop {
+  .select2-container {
+    z-index: 1;
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  &__links {
+    a:hover {
+      @apply text-gray-600;
+    }
+  }
+  &__social {
+    ul {
+      display: inline-flex;
+      align-items: baseline;
+    }
+    li {
+      @apply mr-6;
+    }
+    img {
+      transform: scale(1);
+      transition: 0.2s;
+      &:hover {
+        transform: scale(1.15);
+      }
+    }
+  }
+}

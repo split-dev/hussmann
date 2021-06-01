@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="single-product">
+  {{> ../common/header}}
+
+  <section class="container">
+    <div class="flex flex-col lg:flex-row mt-32 lg:mt-64">
+      <div class="lg:w-1/2 lg:pr-3">
+        {{> ../partials/product-slider}}
+      </div>
+      <div class="lg:w-1/2 lg:pl-3 leading-6">
+        {{> ../partials/product-description}}
+
+        <!--        Features-->
+        <button class="filter-option__button text-black font-medium flex items-center focus:outline-none mb-4" data-next-slide>Features<img class="ml-2 inline-block trans" src="images/symbols/half-arrow-down--black.svg" alt="#"></button>
+        <div class="hidden mb-4 mt-1 text-base ">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo. Nam porta lectus eu nisl rhoncus mollis. Iorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo. Nam porta lectus eu nisl rhoncus mollis. Quisque dignissim porta condimentum. Proin tristique dolor pretium urna dignissim, et consectetur mi dignissim.
+          </p>
+        </div>
+
+        <!--        Benefits-->
+        <button class="filter-option__button text-black font-medium flex items-center focus:outline-none mb-4" data-next-slide>Standard <img class="ml-2 inline-block trans" src="images/symbols/half-arrow-down--black.svg" alt="#"></button>
+        <div class="hidden mb-4 mt-1 text-base">
+          <ul class="list-disc pl-6">
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </li>
+          </ul>
+        </div>
+
+        <!--        Other-->
+        <button class="filter-option__button text-black font-medium flex items-center focus:outline-none mb-4" data-next-slide>Shipping Info <img class="ml-2 inline-block trans" src="images/symbols/half-arrow-down--black.svg" alt="#"></button>
+        <div class="hidden mb-4 mt-1 text-xs">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo. Nam porta lectus eu nisl rhoncus mollis. Iorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo. Nam porta lectus eu nisl rhoncus mollis. Quisque dignissim porta condimentum. Proin tristique dolor pretium urna dignissim, et consectetur mi dignissim.
+          </p>
+        </div>
+        <button class="filter-option__button text-black font-medium flex items-center focus:outline-none mb-4" data-next-slide>Options <img class="ml-2 inline-block trans" src="images/symbols/half-arrow-down--black.svg" alt="#"></button>
+        <div class="hidden mb-4 mt-1 text-xs">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo. Nam porta lectus eu nisl rhoncus mollis. Iorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper porta dolor. Praesent risus erat, mollis a imperdiet at, tincidunt a leo. Nam porta lectus eu nisl rhoncus mollis. Quisque dignissim porta condimentum. Proin tristique dolor pretium urna dignissim, et consectetur mi dignissim.
+          </p>
+        </div>
+
+        <div class="flex-center flex-col pt-5">
+          <h3 class="text-black font-medium mb-5 leading-8">Interested in this Product?</h3>
+          <div class="">
+            <a href="#" class="btn-lg btn-primary">Contact Sales</a>
+            <a href="#" class="btn text-primary ml-5 mt-2 sm:mt-0 sm:ml-0">Explore Parts</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mt-12">
+    <div class="border-t border-gray-200 pt-12 mb-8">
+      <h3 class="font-medium text-black mb-6">Similar Parts</h3>
+      <div class="flex flex-wrap lg:flex-no-wrap lg:justify-between">
+        {{> ../partials/product-tiles}}
+      </div>
+    </div>
+  </section>
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>

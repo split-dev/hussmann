@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  <section class="h-64 bg-cover bg-center flex items-end lg:h-128 xl:h-160 mt-32" style="background-image: url('images/pictures/donuts-picture.jpg')">
+    <div class="container -mb-32 lg:-mb-24">
+      <div class="bg-white shadow-lg relative px-8 py-8 mt-40 lg:pb-20 lg:pt-16 lg:px-24 lg:mt-0">
+        <p class="text-sm text-primary">
+          Recent Project
+        </p>
+        <div class="flex justify-between items-end flex-col lg:flex-row">
+          <h2 class="text-xl leading-6 text-black lg:pr-8 md:text-3xl md:leading-normal lg:max-w-2xl mb-6 lg:mb-0">
+            Independant Mediterranean style supermarket, Oasis Bakery, expands with the help of Hussmann
+          </h2>
+          <a href="#" class="btn btn-primary w-full sm:w-auto text-center">View Project</a>
+        </div>
+        <span class="block absolute bottom-0 left-0 bg-primary-gradient h-7px w-full"></span>
+      </div>
+    </div>
+  </section>
+  <section class="mt-48">
+    <div class="container">
+      <div class="flex flex-col lg:flex-row">
+        <h3 class="text-black">All Projects & News</h3>
+        <div class="lg:ml-auto inline-flex flex-col sm:flex-row sm:items-center font-medium text-primary text-xs mb-10 mt-4 lg:mt-0">
+          <p class="mr-2">Filter by</p>
+          <div class="flex flex-wrap">
+            <a href="#" class="blog-filter selected">All</a>
+            <a href="#" class="blog-filter">Project</a>
+            <a href="#" class="blog-filter">News</a>
+            <a href="#" class="blog-filter">Events</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap">
+        {{#each blog-tile}}
+          <a href="#" class="blog-tile md:w-1/2 mb-24 lg:mb-32 h-84 lg:h-128" style="background-image: url('{{image}}')">
+            <span class="px-3 lg:px-8">
+              <span class="-mb-16 lg:-mb-20 bg-white shadow-lg px-6 xl:px-16 py-6 xl:py-12 md:min-h-250">
+                <span class="text-primary text-sm mb-3">{{category}}</span>
+                <span class="text-black mb-3 text-2xl">{{{title}}}</span>
+                <span class="text-base">{{desc}}</span>
+              </span>
+            </span>
+          </a>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+ <div class="mb-16">
+   {{> ../partials/pagination}}
+ </div>
+  {{> ../common/footer}}
+</body>
+</html>

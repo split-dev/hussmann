@@ -1,0 +1,28 @@
+{
+  "page_title": "History",
+  "page-intro": "History",
+  "links": [
+    {"label": "Corporate Profile"}
+  ],
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Since 1906, Hussmann has provided innovative products, services & solutions for preserving & merchandising fresh foods"
+  },
+  "time-line": [
+    {"time": "Early 1900's"},
+    {"time": "1920's"},
+    {"time": "1930's"},
+    {"time": "1940's"},
+    {"time": "1950's"},
+    {"time": "1960's"},
+    {"time": "1970's"},
+    {"time": "1980's"},
+    {"time": "1990's"},
+    {"time": "00's"}
+  ],
+  "cta": {
+    "title": "Hussmann is hiring",
+    "text": "We are always on the lookout for passionate folk to join the team",
+    "label": "Careers"
+  }
+}

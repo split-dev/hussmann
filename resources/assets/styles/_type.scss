@@ -1,0 +1,49 @@
+/**
+ * ============
+ * Typography
+ * ============
+ * Define as much reusable typography here
+ * such as `.text-hero`, which can be `@extend`-ed from other scss files
+ * This way, this file become a master list of typography used throughout the site
+ */
+
+//Tailwind overrides existing rules, so extra dependency specified
+body {
+  h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 500;
+    @screen md {
+      font-size: 40px;
+    }
+  }
+  h2 {
+    font-size: 28px;
+    letter-spacing: 0.8px;
+    line-height: 39px;
+    font-weight: 500;
+    @screen md {
+      font-size: 32px;
+    }
+  }
+  h3 {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 18px;
+    letter-spacing: 0.82px;
+  }
+  h5 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+  }
+  p {
+    letter-spacing: 0.5px;
+  }
+}

@@ -1,0 +1,14 @@
+{{#with image-content-block}}
+<section class="relative overflow-hidden">
+  <div class="image-content-block container flex md:justify-end md:items-center">
+    <div class="md:w-1/2 lg:pl-4">
+      <h2 class=" mb-6 text-black md:max-w-md">{{{title}}}</h2>
+      {{#if text}}<p class="text-sm md:max-w-sm">{{{text}}}</p>{{/if}}
+      {{#if label}}<a href="#" class="btn-lg btn-primary mt-8">{{label}}</a>{{/if}}
+    </div>
+  </div>
+  <div class="w-10/12 md:w-9/20 mt-8 md:mt-0">
+    <img class="w-full h-64 md:h-auto object-cover object-center max-h-xl" src="{{image}}" alt="#">
+  </div>
+</section>
+{{/with}}

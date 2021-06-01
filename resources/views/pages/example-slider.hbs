@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-tomorrow.css" rel="stylesheet" />
+  <style>
+  .my-slider {
+    height: 40vh;
+  }
+  </style>
+</head>
+<body class="sample-slider">
+  <div class="container pt-24">
+    <h1 class="text-3xl">Sample Slider</h1>
+    <p>
+      Including additional libraries into project is easy. We are using webpack, and it allows dynamic importing in our build process, directly from npm packages.
+    </p>
+    <div class="callout bg-yellow-300 text-yellow-800 p-6 mb-3 bordered">
+      Note that this examples uses inlined styles for demonstration purpose only, this is not recommended when working with actual projects. This example also uses tailwind.css which is not required when building your next project.
+    </div>
+    <div class="relative">
+      <!-- Slider main container -->
+      <div class="swiper-container my-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide slide h-48 bg-gray-800 text-white p-12 text-center">Slide 1</div>
+              <div class="swiper-slide slide h-48 bg-indigo-600 text-white p-12 text-center">Slide 2</div>
+              <div class="swiper-slide slide h-48 bg-blue-600 text-white p-12 text-center">Slide 3</div>
+              <div class="swiper-slide slide h-48 bg-green-600 text-white p-12 text-center">Slide 4</div>
+              <div class="swiper-slide slide h-48 bg-pink-600 text-white p-12 text-center">Slide 5</div>
+              <div class="swiper-slide slide h-48 bg-orange-600 text-white p-12 text-center">Slide 6</div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+      </div>
+      <div>
+        <h4>Test different settings by clicking on available options below.</h4>
+        <div>
+          <button type="button"
+            class="js-change-slider rounded bg-indigo-600 text-white py-2 px-8 mr-2"
+            data-type="default">
+            Default with coverflow
+          </button>
+          <button type="button"
+            class="js-change-slider rounded bg-indigo-600 text-white py-2 px-8 mr-2"
+            data-type="scrollable">
+            Scrollable
+          </button>
+        </div>
+        <div>
+          <p class="text-md mt-1">
+            Need more inspirations? <a href="https://swiperjs.com/demos/">Check out official Swiper demo page.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pt-16">
+      <h3 class="text-xl">How to</h3>
+      <p>
+        External dependencies can be included by directly installing the library from npm
+      </p>
+      <pre><code class="language-bash">yarn add swiper</code></pre>
+      <p>
+        You can then import javascript and css file into the project using corresponding import syntax
+      </p>
+      <pre><code class="language-scss">@import "~swiper/swiper";
+// Swiper library support adding individual components as-needed, you can find them in `node_modules/swiper/components/*`
+@import "~swiper/components/pagination/pagination";
+@import "~swiper/components/navigation/navigation";</code></pre>
+      <pre><code class="language-js">// In routes/page-sample-slider.js
+import Swiper from 'swiper';
+export default {
+  init() {
+    // You may find full documentation of Swiper configuration in https://swiperjs.com/api/#components
+    new Swiper($('.my-slider'), {
+      effect: 'coverflow',
+      loop: false,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      scrollbar: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      coverflowEffect: {
+        rotate: 30,
+        slideShadows: false,
+      },
+      centeredSlides: true,
+    });
+  }
+};</code></pre>
+      <p>
+        When initialising our slider, we can make use our class-based routing system, to avoid cluttering common.js file. In this example, we have added .sample-slider class to our body, which makes it simple to register in our <code class="language-js">main.js</code> file.
+      </p>
+      <pre><code class="language-js">// In main.js
+import PageSampleSlider from './routes/page-sample-slider';
+// /** Populate Router instance with DOM routes */
+const routes = new Router({
+  // All pages
+  common,
+  // The following class on gets fired ONLY when
+  // there is a matching `.sample-slider` class in body tag
+  // Note that the name is the camelCase version of the class
+  // sample-slider -> sampleSlider
+  'sampleSlider': PageSampleSlider,
+});</code></pre>
+    </div>
+      <p>
+        As a bonus, Swiper lets you configure various property directly in SCSS using CSS variable (see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">this link to learn more about CSS variables</a>)
+      </p>
+      <pre><code class="language-scss">:root {
+  // This changes the pagination to 'white'
+  --swiper-pagination-color: #fff;
+}</code></pre>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>

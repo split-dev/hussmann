@@ -1,0 +1,48 @@
+<footer class="text-black border-gray-200 border-t">
+  <div class="py-10 md:py-32">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full mb-10 md:w-1/4 md:pr-10 md:mb-0">
+          <a href="#">
+            <img src="images/logos/hussmann-logo.jpg" alt="Hussmann Logo">
+          </a>
+        </div>
+        {{#each footer}}
+          <div class="w-full md:w-1/4 footer__links">
+            <ul class="text-base">
+              {{#each links}}
+                <li class="mb-2"><a class="font-medium" href="#">{{label}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-100 py-6">
+    <div class="container">
+      <div class="flex justify-between align-items-center flex-col sm:flex-row">
+        <div class="text-tiny footer__social flex justify-between sm:flex-center">
+          <ul>
+            <li>
+              <a href="#"><img src="images/social/facebook.svg" alt="Facebook logo"></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/social/instagram.svg" alt="Instagram logo"></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/social/linkedin.svg" alt="Linkedin logo"></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/social/twitter.svg" alt="Twitter logo"></a>
+            </li>
+          </ul>
+          <span class="ml-2 mt-1">© Hussmann 2019</span>
+        </div>
+        <a href="#" class="max-w-xs inline-flex ml-auto mt-4 sm:ml-0 sm:mt-0">
+          <img class="object-contain" src="images/common/true-logo-footer-black.png" alt="True Logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

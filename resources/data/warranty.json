@@ -1,0 +1,17 @@
+{
+  "page_title": "Warranty",
+  "page-intro": "Warranty",
+  "links": [
+    {"label": "Services"}
+  ],
+  "image-content-block": {
+    "image": "images/pictures/hussmann-worker-changing-door.jpg",
+    "title": "Better piece of mind",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisl mauris, pharetra id gravida nec, consequat et nulla. Pellentesque posuere, turpis in interdum rutrum, justo tellus imperdiet justo, ac ullamcorper."
+  },
+  "cta": {
+    "title": "Got more questions",
+    "text": "Get intouch with one of our Warranty Specialists today",
+    "label": "Contact Us"
+  }
+}

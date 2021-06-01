@@ -1,0 +1,10 @@
+@media (max-width: 992px) and (min-width: 575px) {
+  .product-tile {
+    &:nth-child(odd) {
+      @apply pr-3;
+    }
+    &:nth-child(even) {
+      @apply pl-3;
+    }
+  }
+}

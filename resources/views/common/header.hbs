@@ -1,0 +1,239 @@
+<header class="fixed inset-x-0 top-0 z-50 py-4 bg-white" data-headroom>
+  <div class="container">
+    <div class="nav__links hidden lg:flex justify-end pb-3 border-b border-gray-400 text-xs text-gray-600">
+      <a href="#" class="ml-4">Projects & News</a>
+      <a href="#" class="ml-4">Corporate Profile</a>
+      <a href="#" class="ml-4">Careers</a>
+      <div class="dropdown-lang ml-4 relative">
+        <a href="#" data-dropdown-lang-toggle>AUS <span class="ml-1"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"><g><g><path fill="#000" d="M12.53 1.463l.364.364-5.788 5.788-6-6 .35-.351L7.094 6.9z"/><path fill="none" stroke="#7d7d7d" stroke-miterlimit="50" stroke-width=".5" d="M12.53 1.463v0l.364.364v0L7.106 7.615v0l-6-6v0l.35-.351v0L7.094 6.9v0z"/></g></g></svg></span></a>
+        <div class="absolute right-0 top-0 bg-white mt-6 px-4 py-3 hidden" data-dropdown-lang>
+          <ul>
+            <li>
+              <a href="#">RU</a>
+            </li>
+            <li>
+              <a href="#">PL</a>
+            </li>
+            <li>
+              <a href="#">FR</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="flex items-center justify-between mt-5">
+      <a href="/index.html">
+        <img class="nav_logo--white hidden" src="images/logos/hussmann-logo--white.svg" alt="Hussmann Logo">
+        <img class="nav_logo" src="images/logos/hussmann-logo.png" alt="Hussmann Logo">
+      </a>
+      <div class="nav__links flex items-center text-base font-medium text-black">
+        {{#each link}}
+          <a href="#" class="ml-6"
+            {{#if mega}}data-target-mega="{{mega}}"{{/if}}>{{label}}</a>
+        {{/each}}
+        <button class="mx-6" data-button-search>
+          <img class="nav__search__icon" src="images/symbols/search-icon.svg" alt="#">
+          <img class="nav__search__icon--white hidden" src="images/symbols/search-icon--white.svg" alt="#">
+        </button>
+        <a href="#" class="btn btn-primary">Contact</a>
+        <a href="#" class="btn-sm btn-outline-white">Contact</a>
+        <button class="nav__mob__burger lg:hidden focus:outline-none" data-mob-burger>
+          <span class="bg-black block mb-2"></span>
+          <span class="bg-black block mb-2"></span>
+          <span class="bg-black block"></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+<!--One Mega Menu-->
+<div class="nav-mega fixed inset-x-0 bg-white z-40" data-target-panel="products">
+  <div class="container">
+    <div class="pt-16 pb-20 border-t border-gray-400">
+      <h4 class="text-black">Project Range</h4>
+      <div class="flex mt-3">
+        <div class="w-1/6 text-base text-primary font-medium nav-mega__tab__select">
+          <ul>
+            <li class="active"><a href="#1">Display Cabinets</a></li>
+            <li><a href="#2">Cool Room</a></li>
+            <li><a href="#3">Systems</a></li>
+            <li><a href="#4">Food Services</a></li>
+            <li><a href="#5">Convenience</a></li>
+            <li><a href="#6">Digital Innovations</a></li>
+          </ul>
+        </div>
+        <div class="w-10/12 relative">
+          <div class="flex">
+            <div class="w-1/2 nav-mega__tab text-black text-base pl-8 visible" id="1">
+              <ul>
+                <li><a href="#">Product Name 1</a></li>
+                <li><a href="#">Product Name 2</a></li>
+                <li><a href="#">Product Name 3</a></li>
+                <li><a href="#">Product Name 4</a></li>
+                <li><a href="#">Product Name 5</a></li>
+                <li><a href="#">Product Name 6</a></li>
+                <li><a href="#">Product Name 7</a></li>
+                <li><a href="#">Product Name 8</a></li>
+                <li><a href="#">Product Name 9</a></li>
+                <li><a href="#">Product Name 10</a></li>
+                <li><a href="#">Product Name 11</a></li>
+                <li><a href="#" class="text-primary">Explore All</a></li>
+              </ul>
+            </div>
+            <div class="w-1/2 nav-mega__tab text-black text-base pl-8" id="2">
+              <ul>
+                <li><a href="#">Tab Two</a></li>
+                <li><a href="#">Product Name 2</a></li>
+                <li><a href="#">Product Name 3</a></li>
+                <li><a href="#">Product Name 4</a></li>
+                <li><a href="#">Product Name 5</a></li>
+                <li><a href="#">Product Name 6</a></li>
+                <li><a href="#">Product Name 7</a></li>
+                <li><a href="#">Product Name 8</a></li>
+                <li><a href="#">Product Name 9</a></li>
+                <li><a href="#">Product Name 10</a></li>
+                <li><a href="#">Product Name 11</a></li>
+                <li><a href="#" class="text-primary">Explore All</a></li>
+              </ul>
+            </div>
+            <div class="w-1/2 nav-mega__tab text-black text-base pl-8" id="3">
+              <ul>
+                <li><a href="#">Tab Three</a></li>
+                <li><a href="#">Product Name 2</a></li>
+                <li><a href="#">Product Name 3</a></li>
+                <li><a href="#">Product Name 4</a></li>
+                <li><a href="#">Product Name 5</a></li>
+                <li><a href="#">Product Name 6</a></li>
+                <li><a href="#">Product Name 7</a></li>
+                <li><a href="#">Product Name 8</a></li>
+                <li><a href="#">Product Name 9</a></li>
+                <li><a href="#">Product Name 10</a></li>
+                <li><a href="#">Product Name 11</a></li>
+                <li><a href="#" class="text-primary">Explore All</a></li>
+              </ul>
+            </div>
+            <div class="w-1/2 nav-mega__tab text-black text-base pl-8" id="4">
+              <ul>
+                <li><a href="#">Tab Four</a></li>
+                <li><a href="#">Product Name 2</a></li>
+                <li><a href="#">Product Name 3</a></li>
+                <li><a href="#">Product Name 4</a></li>
+                <li><a href="#">Product Name 5</a></li>
+                <li><a href="#">Product Name 6</a></li>
+                <li><a href="#">Product Name 7</a></li>
+                <li><a href="#">Product Name 8</a></li>
+                <li><a href="#">Product Name 9</a></li>
+                <li><a href="#">Product Name 10</a></li>
+                <li><a href="#">Product Name 11</a></li>
+                <li><a href="#" class="text-primary">Explore All</a></li>
+              </ul>
+            </div>
+            <div class="w-1/2 nav-mega__tab text-black text-base pl-8" id="5">
+              <ul>
+                <li><a href="#">Tab Five</a></li>
+                <li><a href="#">Product Name 2</a></li>
+                <li><a href="#">Product Name 3</a></li>
+                <li><a href="#">Product Name 4</a></li>
+                <li><a href="#">Product Name 5</a></li>
+                <li><a href="#">Product Name 6</a></li>
+                <li><a href="#">Product Name 7</a></li>
+                <li><a href="#">Product Name 8</a></li>
+                <li><a href="#">Product Name 9</a></li>
+                <li><a href="#">Product Name 10</a></li>
+                <li><a href="#">Product Name 11</a></li>
+                <li><a href="#" class="text-primary">Explore All</a></li>
+              </ul>
+            </div>
+            <div class="w-1/2 nav-mega__tab text-black text-base pl-8" id="6">
+              <ul>
+                <li><a href="#">Tab Six</a></li>
+                <li><a href="#">Product Name 2</a></li>
+                <li><a href="#">Product Name 3</a></li>
+                <li><a href="#">Product Name 4</a></li>
+                <li><a href="#">Product Name 5</a></li>
+                <li><a href="#">Product Name 6</a></li>
+                <li><a href="#">Product Name 7</a></li>
+                <li><a href="#">Product Name 8</a></li>
+                <li><a href="#">Product Name 9</a></li>
+                <li><a href="#">Product Name 10</a></li>
+                <li><a href="#">Product Name 11</a></li>
+                <li><a href="#" class="text-primary">Explore All</a></li>
+              </ul>
+            </div>
+            <div class="w-1/2">
+              <h4 class="text-black -mt-10 pt-1">Featured</h4>
+              <div class="flex mt-3">
+                <a href="#" class="inline-flex w-1/2 h-56 relative hover-img-scale mr-2">
+                <span class="block overflow-hidden">
+                  <img class="object-cover object-center" src="images/items/RLTM_1.jpg" alt="#">
+                </span>
+                  <span class="link-tile__white-box block bg-white text-center w-48 shadow-lg py-4">
+                  <span class="block text-black text-base">The Panther Range</span>
+                  <span class="block text-sm text-primary">View Range</span>
+                </span>
+                </a>
+                <a href="#" class="inline-flex w-1/2 h-56 relative hover-img-scale ml-2">
+                <span class="block overflow-hidden">
+                  <img class="object-cover object-center" src="images/pictures/donuts--small.jpg" alt="#">
+                </span>
+                  <span class="link-tile__white-box block bg-white text-center w-48 shadow-lg py-4">
+                  <span class="block text-black text-base">Oasis Bakery</span>
+                  <span class="block text-sm text-primary">View Project</span>
+                </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Mob Mega Menu-->
+<div class="nav__mob__menu inset-y-0 fixed z-50 bg-white px-6 w-64 sm:w-72 py-8 h-full" data-mob-menu>
+  <div class="text-right mb-4">
+    <button class="nav__mob__close" data-mob-close><img src="images/symbols/cancel-icon.svg" alt="#"></button>
+  </div>
+  <a href="#" class="btn-sm btn-primary w-full text-center">Contact Us</a>
+  <div class="nav__mob text-black mt-6 text-base font-medium sm:text-md">
+    <ul>
+      <li>
+        <a href="#" data-target-submenu>Product Range <span class="ml-1"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"><g><g><path fill="#000" d="M12.53 1.463l.364.364-5.788 5.788-6-6 .35-.351L7.094 6.9z"></path><path fill="none" stroke="#000" stroke-miterlimit="50" stroke-width=".5" d="M12.53 1.463v0l.364.364v0L7.106 7.615v0l-6-6v0l.35-.351v0L7.094 6.9v0z"></path></g></g></svg></span></a>
+        <div class="nav__mob__menu__sub hidden">
+          <a href="#">Display Cabinets</a>
+          <a href="#">Convenience</a>
+          <a href="#">Cool Rooms</a>
+          <a href="#">Food Services</a>
+          <a href="#">Digital Innovations</a>
+        </div>
+      </li>
+      <li>
+        <a href="#">Systems</a>
+      </li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Retail Solutions</a>
+      </li>
+      <li>
+        <a href="#">Parts</a>
+      </li>
+      <li>
+        <a href="#" data-target-submenu>More <span class="ml-1"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"><g><g><path fill="#000" d="M12.53 1.463l.364.364-5.788 5.788-6-6 .35-.351L7.094 6.9z"></path><path fill="none" stroke="#000" stroke-miterlimit="50" stroke-width=".5" d="M12.53 1.463v0l.364.364v0L7.106 7.615v0l-6-6v0l.35-.351v0L7.094 6.9v0z"></path></g></g></svg></span></a>
+        <div class="nav__mob__menu__sub hidden">
+          <a href="#">Projects & News</a>
+          <a href="#">Corporate Profile</a>
+          <a href="#">Careers</a>
+          <a href="#" data-target-submenu-lang>AUS <span class="ml-1"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"><g><g><path fill="#000" d="M12.53 1.463l.364.364-5.788 5.788-6-6 .35-.351L7.094 6.9z"></path><path fill="none" stroke="#000" stroke-miterlimit="50" stroke-width=".5" d="M12.53 1.463v0l.364.364v0L7.106 7.615v0l-6-6v0l.35-.351v0L7.094 6.9v0z"></path></g></g></svg></span></a>
+          <div class="nav__mob__menu__sub hidden">
+            <a href="#">RU</a>
+            <a href="#">PL</a>
+            <a href="#">FR</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

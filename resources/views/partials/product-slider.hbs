@@ -1,0 +1,25 @@
+<div class="product-slider swiper-container">
+  <div class="swiper-wrapper">
+    {{#each product-img}}
+      <div class="swiper-slide flex h-64 md:h-84">
+        <img class="object-cover h-full m-auto" src="{{image}}" alt="#">
+      </div>
+    {{/each}}
+  </div>
+</div>
+<div class="product-slider__thumbs swiper-container mt-20 mb-4">
+  <div class="swiper-wrapper">
+    {{#each product-img}}
+      <div class="swiper-slide flex-center h-16">
+        <img class="object-cover h-full" src="{{image}}" alt="#">
+      </div>
+    {{/each}}
+  </div>
+</div>
+<div class="flex items-center text-xs text-black">
+  <p>Share Product</p>
+  <a href="#" class="ml-3"><img src="images/social/facebook--primary.jpg" alt="#"></a>
+  <a href="#" class="ml-3"><img src="images/social/twitter--primary.jpg" alt="#"></a>
+  <a href="#" class="ml-3"><img src="images/social/linkedIn--primary.jpg" alt="#"></a>
+  <a href="#" class="ml-3"><img src="images/social/envelope--primary.jpg" alt="#"></a>
+</div>

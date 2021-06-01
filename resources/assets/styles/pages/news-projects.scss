@@ -1,0 +1,24 @@
+.blog-filter {
+  @apply bg-white border border-primary rounded-full px-6 mr-2 py-1 mt-3;
+  @screen sm {
+    @apply mt-0 ml-2;
+  }
+  &.selected {
+    @apply text-white bg-primary;
+  }
+}
+.blog-tile {
+  background-clip: content-box;
+  @apply bg-center bg-cover flex items-end trans;
+  @screen md {
+    &:nth-child(odd) {
+      @apply pr-3;
+    }
+    &:nth-child(even) {
+      @apply pl-3;
+    }
+  }
+  span {
+    @apply block;
+  }
+}

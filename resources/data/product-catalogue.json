@@ -1,0 +1,233 @@
+{
+  "page_title": "Product Page",
+  "page-title": "Display Cabinets",
+  "image": "images/pictures/train-station.jpg",
+  "select": [
+    {
+      "option": "Display Cabinets"
+    },
+    {
+      "option": "Parts"
+    },    {
+      "option": "Another"
+    }
+  ],
+  "filters": [
+    {
+      "label": "Function",
+      "option": [
+        {
+          "id": "plugin",
+          "option-name": "Plugin"
+        },
+        {
+          "id": "remote",
+          "option-name": "Remote"
+        }
+      ]
+    },
+    {
+      "label": "Best suited to",
+      "option": [
+        {
+          "id": "food-service",
+          "option-name": "Food Service"
+        },
+        {
+          "id": "merchant",
+          "option-name": "Mass Merchant"
+        },
+        {
+          "id": "dollar&discount-store",
+          "option-name": "Dollar & Discount stores"
+        },        {
+          "id": "drug-store",
+          "option-name": "Drug Store"
+        },        {
+          "id": "convenience-store",
+          "option-name": "Convenience Store"
+        }
+      ]
+    },
+    {
+      "label": "Department",
+      "option": [
+        {
+          "id": "meat",
+          "option-name": "Meat"
+        },
+        {
+          "id": "bakery",
+          "option-name": "Bakery"
+        },
+        {
+          "id": "dairy",
+          "option-name": "Dairy"
+        },
+        {
+          "id": "produce",
+          "option-name": "Produce"
+        },
+        {
+          "id": "prepared-food",
+          "option-name": "Prepared Food"
+        },
+        {
+          "id": "hot-foods",
+          "option-name": "Hot Foods"
+        },
+        {
+          "id": "seafood",
+          "option-name": "Seafood"
+        },
+        {
+          "id": "floral",
+          "option-name": "Floral"
+        },
+        {
+          "id": "frozen",
+          "option-name": "Frozen"
+        }
+      ]
+    },
+    {
+      "label": "Function",
+      "option": [
+        {
+          "id": "plugin1",
+          "option-name": "Plugin"
+        },
+        {
+          "id": "remote1",
+          "option-name": "Remote"
+        }
+      ]
+    },
+    {
+      "label": "Temperature",
+      "option": [
+        {
+          "id": "food-service1",
+          "option-name": "Food Service"
+        },
+        {
+          "id": "merchant1",
+          "option-name": "Mass Merchant"
+        },
+        {
+          "id": "dollar&discount-store1",
+          "option-name": "Dollar & Discount stores"
+        },        {
+          "id": "drug-store1",
+          "option-name": "Drug Store"
+        },        {
+          "id": "convenience-store1",
+          "option-name": "Convenience Store"
+        }
+      ]
+    },
+    {
+      "label": "Department",
+      "option": [
+        {
+          "id": "meat1",
+          "option-name": "Meat"
+        },
+        {
+          "id": "bakery1",
+          "option-name": "Bakery"
+        },
+        {
+          "id": "dairy1",
+          "option-name": "Dairy"
+        },
+        {
+          "id": "produce1",
+          "option-name": "Produce"
+        },
+        {
+          "id": "prepared-food1",
+          "option-name": "Prepared Food"
+        },
+        {
+          "id": "hot-foods1",
+          "option-name": "Hot Foods"
+        },
+        {
+          "id": "seafood1",
+          "option-name": "Seafood"
+        },
+        {
+          "id": "floral1",
+          "option-name": "Floral"
+        },
+        {
+          "id": "frozen1",
+          "option-name": "Frozen"
+        }
+      ]
+    }
+  ],
+  "prod-tile": [
+    {
+      "image": "images/items/cabin-1.png",
+      "title": "RLT/RMT",
+      "text": "Extra Tall Reach-in Merchandiser for Low Temperature Products "
+    },
+    {
+      "image": "images/items/cabin-2.png",
+      "title": "B3XC",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/cabin-3.png",
+      "title": "B5XEC-L",
+      "text": "Excel High Volume Five Deck Bulk Merchandiser with Extended Canopy"
+    },
+    {
+      "image": "images/items/cabin-4.png",
+      "title": "Cyclone Self-Serve",
+      "text": "Extra Tall Reach-in Merchandiser for Low Temperature Products "
+    },
+    {
+      "image": "images/items/cabin-5.png",
+      "title": "Multi-Deck Max Cool",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/cabin-6.png",
+      "title": "Convertable Low-Pro",
+      "text": "Excel High Volume Five Deck Bulk Merchandiser with Extended Canopy"
+    },
+    {
+      "image": "images/items/cabin-1.png",
+      "title": "RLT/RMT",
+      "text": "Extra Tall Reach-in Merchandiser for Low Temperature Products "
+    },
+    {
+      "image": "images/items/cabin-2.png",
+      "title": "B3XC",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/cabin-3.png",
+      "title": "B5XEC-L",
+      "text": "Excel High Volume Five Deck Bulk Merchandiser with Extended Canopy"
+    },
+    {
+      "image": "images/items/cabin-4.png",
+      "title": "Cyclone Self-Serve",
+      "text": "Extra Tall Reach-in Merchandiser for Low Temperature Products "
+    },
+    {
+      "image": "images/items/cabin-5.png",
+      "title": "Multi-Deck Max Cool",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/cabin-6.png",
+      "title": "Convertable Low-Pro",
+      "text": "Excel High Volume Five Deck Bulk Merchandiser with Extended Canopy"
+    }
+  ]
+}

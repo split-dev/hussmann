@@ -1,0 +1,109 @@
+{
+  "page_title": "Parts",
+  "page-title": "Parts",
+  "image": "images/pictures/train-station.jpg",
+  "select": [
+    {
+      "option": "Parts"
+    },
+    {
+      "option": "Display Cabinets"
+    },    {
+      "option": "Another"
+    }
+  ],
+  "filters": [
+    {
+      "label": "Spare Parts",
+      "option": [
+        {
+          "id": "plugin",
+          "option-name": "Plugin"
+        },
+        {
+          "id": "remote",
+          "option-name": "Remote"
+        }
+      ]
+    },
+    {
+      "label": "Retrofit",
+      "option": [
+        {
+          "id": "food-service",
+          "option-name": "Door Retrofit"
+        },
+        {
+          "id": "merchant",
+          "option-name": "LED Upgrades"
+        },
+        {
+          "id": "dollar&discount-store",
+          "option-name": "Refresh Kit"
+        }
+      ]
+    }
+  ],
+  "prod-tile": [
+    {
+      "image": "images/items/part-1.png",
+      "title": "Door hindge 2hs",
+      "text": "2007-2012 Mazda CX-7 Positive Battery Terminal OEM"
+    },
+    {
+      "image": "images/items/part-2.png",
+      "title": "Runthrough 6x3",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/part-3.png",
+      "title": "Brackets l60",
+      "text": "Genuine Mopar Visorshde-Window  and Low Front"
+    },
+    {
+      "image": "images/items/part-1.png",
+      "title": "Door hindge 2hs",
+      "text": "2007-2012 Mazda CX-7 Positive Battery Terminal OEM"
+    },
+    {
+      "image": "images/items/part-2.png",
+      "title": "Runthrough 6x3",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/part-3.png",
+      "title": "Brackets l60",
+      "text": "Genuine Mopar Visorshde-Window  and Low Front"
+    },
+    {
+      "image": "images/items/part-1.png",
+      "title": "Door hindge 2hs",
+      "text": "2007-2012 Mazda CX-7 Positive Battery Terminal OEM"
+    },
+    {
+      "image": "images/items/part-2.png",
+      "title": "Runthrough 6x3",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/part-3.png",
+      "title": "Brackets l60",
+      "text": "Genuine Mopar Visorshde-Window  and Low Front"
+    },
+    {
+      "image": "images/items/part-1.png",
+      "title": "Door hindge 2hs",
+      "text": "2007-2012 Mazda CX-7 Positive Battery Terminal OEM"
+    },
+    {
+      "image": "images/items/part-2.png",
+      "title": "Runthrough 6x3",
+      "text": "Bulk Convertible for Higher Capacity Display of Products"
+    },
+    {
+      "image": "images/items/part-3.png",
+      "title": "Brackets l60",
+      "text": "Genuine Mopar Visorshde-Window  and Low Front"
+    }
+  ]
+}

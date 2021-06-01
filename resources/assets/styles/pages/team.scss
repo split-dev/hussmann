@@ -1,0 +1,45 @@
+.member-tile {
+  @apply cursor-pointer;
+  @media (max-width: 1199px) {
+    min-height: 371px;
+  }
+  @media (max-width: 991px) {
+    min-height: auto;
+  }
+  &.open-bio {
+    opacity: 1 !important;
+  }
+}
+.member-container {
+  &.active {
+    .member-tile {
+      opacity: 0.3;
+    }
+  }
+}
+.bio-modal {
+  @media (max-width: 767px) {
+    padding: 15px 15px 30px;
+  }
+  &__position {
+    z-index: -1;
+    @media (max-width: 767px) {
+      padding: 0;
+    }
+    &.bio-modal-active {
+      overflow: auto !important;
+      z-index: 9999;
+      opacity: 1;
+    }
+  }
+}
+.team {
+  .image-content-block {
+    h2 {
+      @media (max-width: 991px) and (min-width: 768px) {
+        font-size: 26px !important;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
